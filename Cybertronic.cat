@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="8b62-aebe-24ff-6f65" name="Cybertronic" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="1199-e5cb-93c2-b53d" name="Arcane Immunity" hidden="false" collective="false" import="true" targetId="61cf-eb85-2aea-bcf5" type="selectionEntry"/>
+    <entryLink id="40ca-14a9-4a90-c2f5" name="Attilla Mk III Cuirassier Support (FL)" hidden="false" collective="false" import="true" targetId="6ac4-30f4-6abb-13dd" type="selectionEntry"/>
+    <entryLink id="7fa5-84fe-56de-be49" name="Attilla Mk III Cuirassier Trooper" hidden="false" collective="false" import="true" targetId="9b4f-7cf0-f4f4-f229" type="selectionEntry"/>
+    <entryLink id="e7c7-0c4c-62e1-a794" name="Chasseurs Leader" hidden="false" collective="false" import="true" targetId="3bac-9512-7781-050c" type="selectionEntry"/>
+    <entryLink id="a44e-2ced-1cf4-31f7" name="Chasseurs Operator Specialist" hidden="false" collective="false" import="true" targetId="097b-16b9-104b-461b" type="selectionEntry"/>
+    <entryLink id="8036-edf2-1300-d466" name="Chasseurs Support" hidden="false" collective="false" import="true" targetId="62bd-4bfa-450f-d202" type="selectionEntry"/>
+    <entryLink id="1f7a-077c-b387-b9e7" name="Chasseurs Trooper" hidden="false" collective="false" import="true" targetId="b77a-8057-b75e-4d69" type="selectionEntry"/>
+    <entryLink id="cef8-99be-8406-a9a0" name="Command Helmet" hidden="false" collective="false" import="true" targetId="35cf-eb9e-bbe8-2186" type="selectionEntry"/>
+    <entryLink id="5c0c-4c88-4fa4-5867" name="Cybernetic Power Arm" hidden="false" collective="false" import="true" targetId="3719-dc9e-9ed9-2401" type="selectionEntry"/>
+    <entryLink id="80bd-03b6-f838-9b13" name="Extra Kit" hidden="false" collective="false" import="true" targetId="b35c-50ef-eca0-c939" type="selectionEntry"/>
+    <entryLink id="1dff-a13b-0877-b857" name="Hyperactivator" hidden="false" collective="false" import="true" targetId="5fcb-2261-e905-c5b7" type="selectionEntry"/>
+    <entryLink id="1a3b-f77b-0e55-b62e" name="Intel Misdirection" hidden="false" collective="false" import="true" targetId="a9a5-49c1-4705-dc70" type="selectionEntry"/>
+    <entryLink id="22ee-78fe-2545-cc92" name="Mirrormen Leader" hidden="false" collective="false" import="true" targetId="8a78-7197-9970-4bbf" type="selectionEntry"/>
+    <entryLink id="b503-3e69-001f-fa67" name="Mirrormen Trooper" hidden="false" collective="false" import="true" targetId="0ef2-02c5-f5d0-171b" type="selectionEntry"/>
+    <entryLink id="ab12-0d8c-2b9c-344d" name="Mission Critical" hidden="false" collective="false" import="true" targetId="de7b-84b3-7899-f7f2" type="selectionEntry"/>
+    <entryLink id="9537-2981-93f8-a5de" name="Network Hub" hidden="false" collective="false" import="true" targetId="0dee-70f8-dd8e-8a67" type="selectionEntry"/>
+    <entryLink id="69b1-e564-a78a-319e" name="Subreal Link" hidden="false" collective="false" import="true" targetId="4591-d43e-50b1-a2d4" type="selectionEntry"/>
+    <entryLink id="6aa0-681b-8958-1382" name="Agent Trooper" hidden="false" collective="false" import="true" targetId="a210-db16-5a37-433d" type="selectionEntry"/>
+    <entryLink id="fd0a-5818-9c9d-2065" name="Mortificators Leader" hidden="false" collective="false" import="true" targetId="52de-08bc-a951-d007" type="selectionEntry"/>
+    <entryLink id="e9ed-a661-b7b5-70c7" name="Mortificators Trooper" hidden="false" collective="false" import="true" targetId="0484-1d7f-a752-fea3" type="selectionEntry"/>
+    <entryLink id="21d6-8330-7d65-9507" name="Necromutants Trooper" hidden="false" collective="false" import="true" targetId="b528-48b1-8692-9cbd" type="selectionEntry"/>
+    <entryLink id="9bfd-0f74-486b-987f" name="Undead Legionnaires Trooper" hidden="false" collective="false" import="true" targetId="c26d-d114-0481-8797" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="61cf-eb85-2aea-bcf5" name="Arcane Immunity" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4f2-6178-f7ef-254c" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="7e50-35ba-c9b0-b8bb" name="Arcane Immunity" hidden="false">
+          <description>Designate a Unit. That Unit cannot be targeted by Strike or Shoot Actions that have either the Divine or Symmetry Weapon Special Abilities.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="b064-684d-cee2-6250" name="Cybertronic Assets" hidden="false" targetId="2129-81c7-cb63-946c" primary="true"/>
+        <categoryLink id="13ad-fb97-39fd-7724" name="New CategoryLink" hidden="false" targetId="9680-a729-1b99-6ac1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="1.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0dee-70f8-dd8e-8a67" name="Network Hub" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a28e-04a5-f7d8-765e" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="091b-f90d-447d-045b" name="Network Hub" hidden="false">
+          <description>Designate a Unit with the Networked Unit Special Ability. Friendly Units with the Networked Unit Special Ability may relocate Reaction Counters to this Unit even when it currently possesses one, but no more than one, Reaction Counter.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="f569-cfd4-864b-6b1e" name="Cybertronic Assets" hidden="false" targetId="2129-81c7-cb63-946c" primary="true"/>
+        <categoryLink id="ff64-d2b6-2abb-12f5" name="New CategoryLink" hidden="false" targetId="9680-a729-1b99-6ac1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="1.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4591-d43e-50b1-a2d4" name="Subreal Link" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab9b-f5b0-77bf-e613" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="a5de-1aae-5cc7-5e38" name="Subreal Link" hidden="false">
+          <description>Designate a Unit. This Unit may re-roll failed TN(LD) Tests performed as part of an Interact Action.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="527b-11d9-7f50-ab29" name="Cybertronic Assets" hidden="false" targetId="2129-81c7-cb63-946c" primary="true"/>
+        <categoryLink id="46d5-dc4f-dc13-7d33" name="New CategoryLink" hidden="false" targetId="9680-a729-1b99-6ac1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="1.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="de47-6cd9-75be-d390" name="CSA 404 Sword" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6390-6dc8-7a0f-11c4" name="Reach (1)" hidden="false" targetId="2dab-4720-1bb4-2ca5" type="rule"/>
+        <infoLink id="49c9-f93d-d4eb-48ef" name="Vicious" hidden="false" targetId="8e6f-88bf-6ef2-e019" type="rule"/>
+        <infoLink id="0c54-9148-5552-d636" name="CSA 404 Sword" hidden="false" targetId="107a-a455-8c8b-51d9" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8385-2e5b-87cb-06a4" name="P1000 Handgun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2486-2eec-f73c-b4e1" name="P1000 Handgun" hidden="false" targetId="e922-adf5-5b92-c5f4" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="19ca-2e8b-9d75-5ccf" name="SA-SG72001 Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c83a-dc11-4bf5-a3a3" name="SA-SG72001 Shotgun" hidden="false" targetId="9550-d730-4bdf-7cde" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="46a6-b54b-bea4-53aa" name="AR3000 Assault Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9e50-8460-c77a-c2bf" name="AR3000 Assault Rifle" hidden="false" targetId="1fd7-acb6-d57a-ab87" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b320-c42e-efa6-6caf" name="SSW4200P HMG" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d40b-3274-c81d-b1cc" name="SSW4200P HMG" hidden="false" targetId="ad0d-67c2-d42e-a992" type="profile"/>
+        <infoLink id="cf25-0879-3925-f000" name="Burst (3)" hidden="false" targetId="bd3c-3fd1-31a0-f4d9" type="rule"/>
+        <infoLink id="135c-bff7-a170-2c83" name="Recoil (4)" hidden="false" targetId="4254-e2f3-1f4b-d782" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e2ed-d300-d9e7-fbe3" name="Flash Grenades" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a8bf-46c6-b1e3-7b04" name="Flash Grenades" hidden="false" targetId="e079-3db2-6b17-cfcf" type="profile"/>
+        <infoLink id="bc6c-ab47-e7c7-ea8d" name="Concussive" hidden="false" targetId="c9fb-772d-1465-efe8" type="rule"/>
+        <infoLink id="8813-0087-6333-4d93" name="Explosive (3)" hidden="false" targetId="002c-9adc-61e0-ea00" type="rule"/>
+        <infoLink id="2e2c-f169-fda2-8b74" name="Indirect" hidden="false" targetId="a5ba-1f3a-3d3f-da7e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b77a-8057-b75e-4d69" name="Chasseurs Trooper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="a657-7196-73fc-2f7e" name="Chasseurs Trooper" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">13</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">9</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">+1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">24</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">11</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9ba9-4e33-38d5-509f" name="Networked" hidden="false" targetId="ac3c-752e-4f42-6318" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fdf4-ea2d-c919-ed6f" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5f4b-9cbe-517a-5d5b" name="AR3000 Assault Rifle" hidden="false" collective="false" import="true" targetId="46a6-b54b-bea4-53aa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6983-cd65-3db5-d2d0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1176-9099-f319-82c1" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3bac-9512-7781-050c" name="Chasseurs Leader" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="6501-6a09-198d-83fb" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b77a-8057-b75e-4d69" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6501-6a09-198d-83fb" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4c61-b32b-80e2-33ae" name="Chasseurs Leader" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">14</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">14</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">9</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">+1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">24</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">13</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7cf0-96fe-32fc-359c" name="Networked" hidden="false" targetId="ac3c-752e-4f42-6318" type="rule"/>
+        <infoLink id="9b8d-49c1-e8f1-0f0a" name="Command (Chasseurs)" hidden="false" targetId="ffe5-a9cb-0e00-88bd" type="rule"/>
+        <infoLink id="5535-c414-1e68-155f" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7d9a-e039-ba1a-7335" name="New CategoryLink" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b3ea-a6ab-ea50-641a" name="AR3000 Assault Rifle" hidden="false" collective="false" import="true" targetId="46a6-b54b-bea4-53aa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bab0-10e2-70f8-178d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c39e-be06-50dc-627e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="5.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="097b-16b9-104b-461b" name="Chasseurs Operator Specialist" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="a0f4-1fad-8c16-a338" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b77a-8057-b75e-4d69" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0f4-1fad-8c16-a338" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3b6d-0034-4be9-916a" name="Chasseurs Operator Specialist" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">13</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">9</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">+1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">24</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">11</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9c6f-1542-4b31-7bae" name="Networked" hidden="false" targetId="ac3c-752e-4f42-6318" type="rule"/>
+        <infoLink id="f72f-6bc8-124e-e847" name="Tactical" hidden="false" targetId="bb24-5e32-1ea5-89d0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c2dd-011f-4f33-82f2" name="New CategoryLink" hidden="false" targetId="55c5-1db9-4a97-8ddd" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="da7f-cdbc-333b-6135" name="AR3000 Assault Rifle" hidden="false" collective="false" import="true" targetId="46a6-b54b-bea4-53aa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8d3-323f-620c-c1d6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="644b-8f96-4995-e781" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9bae-3a52-8790-5c09" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="8329-5527-93c5-9e83" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1852-4f5e-3470-fc4f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2e7-8c49-a0e7-d16d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d684-b24e-c0d6-b2d5" name="Smoke Grenades" hidden="false" collective="false" import="true" targetId="a21f-e75a-b897-afc0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a01-1afb-61de-ded8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85fd-d219-af18-0aab" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="62bd-4bfa-450f-d202" name="Chasseurs Support" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d678-cc9e-a1ba-699b" name="Chasseurs Support" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">13</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">9</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">+1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">24</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">11</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ea85-4af5-a04c-13fc" name="Networked" hidden="false" targetId="ac3c-752e-4f42-6318" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="544b-88de-45c4-5a2c" name="New CategoryLink" hidden="false" targetId="72e5-3998-27b5-2257" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="733d-636f-c059-ba25" name="SSW4200P HMG" hidden="false" collective="false" import="true" targetId="b320-c42e-efa6-6caf" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea0e-151e-fd52-371c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="febe-dcc2-68d7-e39c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ef2-02c5-f5d0-171b" name="Mirrormen Trooper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="91d0-6f8f-e5d7-ba96" name="Mirrormen Trooper" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">12</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">15</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">8</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">11</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fc1e-9f4e-c9f7-e83f" name="Blur (-2)" hidden="false" targetId="3d96-a820-3c45-6d72" type="rule"/>
+        <infoLink id="f80b-0338-90cf-d785" name="Camouflage (2)" hidden="false" targetId="561a-f910-7ec1-6df9" type="rule"/>
+        <infoLink id="ab0a-0db6-b8ce-0283" name="Networked" hidden="false" targetId="ac3c-752e-4f42-6318" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="aecd-2f56-d810-689e" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0936-7443-60cb-aa1d" name="CSA 404 Sword" hidden="false" collective="false" import="true" targetId="de47-6cd9-75be-d390" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41a2-881b-2ccf-1294" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c33-d6b7-3c75-64bb" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="636d-7e56-7ce7-9d73" name="P1000 Handgun" hidden="false" collective="false" import="true" targetId="8385-2e5b-87cb-06a4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b0a-2ab2-d169-f437" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6fe-0945-23e2-a9d4" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8a78-7197-9970-4bbf" name="Mirrormen Leader" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="3ce1-5d0a-4b65-4512" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ef2-02c5-f5d0-171b" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ce1-5d0a-4b65-4512" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="713a-d078-57bf-5495" name="Mirrormen Leader" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">16</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">8</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">13</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="040b-24fd-3597-7ea3" name="Blur (-2)" hidden="false" targetId="3d96-a820-3c45-6d72" type="rule"/>
+        <infoLink id="a2bc-5704-97a1-da1b" name="Camouflage (2)" hidden="false" targetId="561a-f910-7ec1-6df9" type="rule"/>
+        <infoLink id="663b-608d-e89b-a9fa" name="Command (Mirrormen)" hidden="false" targetId="d9f1-068b-4ae0-0bc5" type="rule"/>
+        <infoLink id="d6fc-2ebc-cbe4-69b0" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+        <infoLink id="0df0-4afc-bfe5-e11a" name="Networked" hidden="false" targetId="ac3c-752e-4f42-6318" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4ae7-dc47-9ac8-04d0" name="New CategoryLink" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="546e-9b66-b304-98f6" name="CSA 404 Sword" hidden="false" collective="false" import="true" targetId="de47-6cd9-75be-d390" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e29e-3040-fb8f-51db" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a268-d363-6078-6fd6" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f7ba-0c09-91cb-754b" name="SA-SG72001 Shotgun" hidden="false" collective="false" import="true" targetId="19ca-2e8b-9d75-5ccf" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18b9-3886-26ee-8d5d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="553d-c1d0-6f80-ca90" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5158-91b0-0fd1-0441" name="Flash Grenades" hidden="false" collective="false" import="true" targetId="e2ed-d300-d9e7-fbe3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3591-7d44-ffd5-7ea5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0faf-1a45-a4c0-2418" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="5.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9b4f-7cf0-f4f4-f229" name="Attilla Mk III Cuirassier Trooper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d805-b475-e6ae-f3cb" name="Attilla Mk III Cuirassier Trooper" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">3</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">12</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">12</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">+1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">25</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">3</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">10</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5def-5d69-97fa-6732" name="Aggressive" hidden="false" targetId="e2ec-bc12-2843-ab77" type="rule"/>
+        <infoLink id="4cc5-97c7-d105-e6d7" name="Nerves of Steel" hidden="false" targetId="4cf4-05f4-fe66-9ee4" type="rule"/>
+        <infoLink id="6217-c853-8148-bf13" name="Networked" hidden="false" targetId="ac3c-752e-4f42-6318" type="rule"/>
+        <infoLink id="f0e3-d089-c8dd-a9f2" name="Firing Stance" hidden="false" targetId="0778-03a7-9d3b-14f0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d8bf-acb0-f572-a6af" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1c19-f3d8-6974-daa8" name="AR3000 Assault Rifle" hidden="false" collective="false" import="true" targetId="46a6-b54b-bea4-53aa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ff6-f24d-b2e5-d7c5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ea5-915f-c7f0-c178" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="8.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6ac4-30f4-6abb-13dd" name="Attilla Mk III Cuirassier Support" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4f9f-560d-35d8-c520" name="Attilla Mk III Cuirassier Support" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">3</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">12</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">12</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">+1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">25</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">3</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">10</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6534-6ef4-8dae-570f" name="Aggressive" hidden="false" targetId="e2ec-bc12-2843-ab77" type="rule"/>
+        <infoLink id="d68b-4b9c-601d-ae1a" name="Nerves of Steel" hidden="false" targetId="4cf4-05f4-fe66-9ee4" type="rule"/>
+        <infoLink id="ff39-e808-1e4d-9b3b" name="Networked" hidden="false" targetId="ac3c-752e-4f42-6318" type="rule"/>
+        <infoLink id="2bf8-fcea-d2f1-3302" name="Firing Stance" hidden="false" targetId="0778-03a7-9d3b-14f0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a806-0407-f984-59e3" name="New CategoryLink" hidden="false" targetId="72e5-3998-27b5-2257" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="909b-03d7-d205-6028" name="Weapon Selection" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9074-c09b-1f86-47f5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b06-6216-324b-4c77" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="752f-6e8a-67a2-038d" name="Gehenna Puker" hidden="false" collective="false" import="true" targetId="1a52-130f-2140-58a5" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e42-b2c1-709b-6ac6" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8831-c969-8a16-d564" name="SSW4200P HMG" hidden="false" collective="false" import="true" targetId="b320-c42e-efa6-6caf" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53ef-d530-fd7d-1a11" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="8.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="107a-a455-8c8b-51d9" name="CSA 404 Sword" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">+1</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">ST+6</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">-</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">-</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">-</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">-</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">-</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Reach (1), Vicious</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e922-adf5-5b92-c5f4" name="P1000 Handgun" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">+0</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">12</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 6&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+1</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">12</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">6&quot;-18&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-1</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">12</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9550-d730-4bdf-7cde" name="SA-SG72001 Shotgun" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 6&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+1</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">13x2</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">6&quot;-18&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-2</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">12</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1fd7-acb6-d57a-ab87" name="AR3000 Assault Rifle" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 12&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+1</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">13</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">12&quot;-36&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-1</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">13</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ad0d-67c2-d42e-a992" name="SSW4200P HMG" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 24&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+1</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">13</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">24&quot;-48&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-2</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">13</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">18</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Burst (3), Recoil (4)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e079-3db2-6b17-cfcf" name="Flash Grenades" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">-</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">-</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">-</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">Up to ST+4&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">+0</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">-</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Concussive, Explosive (3), Indirect</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

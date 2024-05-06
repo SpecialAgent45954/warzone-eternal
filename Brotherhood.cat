@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ec98-e3ba-032d-facf" name="Brotherhood" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="5dcc-1c1e-a759-2c16" name="Devotion and Zeal" hidden="false" collective="false" import="true" targetId="df01-c239-c3c3-5d1c" type="selectionEntry"/>
+    <entryLink id="7855-50a3-013e-de54" name="F-214 Flamer" hidden="false" collective="false" import="true" targetId="2c36-0fbf-dd4c-3604" type="selectionEntry"/>
+    <entryLink id="931a-6cab-ab81-f1fe" name="Fury Elite Guard Leader" hidden="false" collective="false" import="true" targetId="c363-665a-eef6-61a7" type="selectionEntry"/>
+    <entryLink id="de1d-cb39-36d6-6f3d" name="Fury Elite Guard Trooper" hidden="false" collective="false" import="true" targetId="24d4-f09a-840b-3eff" type="selectionEntry"/>
+    <entryLink id="05ec-175a-b8e0-f285" name="Mortificators Leader" hidden="false" collective="false" import="true" targetId="5d43-bcdf-70e2-addd" type="selectionEntry"/>
+    <entryLink id="b899-31b2-7a36-0cfc" name="Mortificators Trooper" hidden="false" collective="false" import="true" targetId="d770-3b91-24eb-8370" type="selectionEntry"/>
+    <entryLink id="256c-6bf0-2ea2-7c47" name="Sacred Warriors Support" hidden="false" collective="false" import="true" targetId="28ab-19d3-4252-c5c1" type="selectionEntry"/>
+    <entryLink id="34bc-d9fe-3d73-3b95" name="Sacred Warriors Trooper" hidden="false" collective="false" import="true" targetId="dbe6-165b-9d21-2993" type="selectionEntry"/>
+    <entryLink id="4066-4390-6d1e-588a" name="Word of the Cardinal" hidden="false" collective="false" import="true" targetId="06f0-45c4-f170-c69d" type="selectionEntry"/>
+    <entryLink id="c029-9de1-a33d-fe9d" name="Cybernetic Power Arm" hidden="false" collective="false" import="true" targetId="3719-dc9e-9ed9-2401" type="selectionEntry"/>
+    <entryLink id="c8e7-dafa-ace3-4074" name="Mission Critical" hidden="false" collective="false" import="true" targetId="de7b-84b3-7899-f7f2" type="selectionEntry"/>
+    <entryLink id="eec9-1011-eae6-a148" name="Command Helmet" hidden="false" collective="false" import="true" targetId="35cf-eb9e-bbe8-2186" type="selectionEntry"/>
+    <entryLink id="0403-71fa-ec6a-8c26" name="Extra Kit" hidden="false" collective="false" import="true" targetId="b35c-50ef-eca0-c939" type="selectionEntry"/>
+    <entryLink id="2ba3-1857-e8bd-ab2b" name="Hyperactivator" hidden="false" collective="false" import="true" targetId="5fcb-2261-e905-c5b7" type="selectionEntry"/>
+    <entryLink id="24c3-c6af-a9d4-7635" name="Intel Misdirection" hidden="false" collective="false" import="true" targetId="a9a5-49c1-4705-dc70" type="selectionEntry"/>
+    <entryLink id="7b7f-1988-7677-cd77" name="Agent Trooper" hidden="false" collective="false" import="true" targetId="a210-db16-5a37-433d" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="2c36-0fbf-dd4c-3604" name="F-214 Flamer" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffe9-0b43-d31e-8f28" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="f06b-0592-c2bc-dd3b" name="F-214 Flamer" hidden="false">
+          <description>Designate a Unit equipped with a Weapon with “Handgun” in the Weapon Name. Shoot Actions performed with this Weapon gain the Continuous and Projected Weapon Special Abilities when targeting an Enemy Unit in the Weapon’s Short Range band.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="57d4-1f95-bfab-210f" name="Brotherhood Assets" hidden="false" targetId="ff66-36e3-baa0-205c" primary="true"/>
+        <categoryLink id="ae3c-1fbd-778b-ce6e" name="New CategoryLink" hidden="false" targetId="9680-a729-1b99-6ac1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="1.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="df01-c239-c3c3-5d1c" name="Devotion and Zeal" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6166-01f5-e863-c4ac" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="44a1-9b3b-bab0-94b2" name="Devotion and Zeal" hidden="false">
+          <description>Designate a Unit to receive the Faith (1) Unit Special Ability. If the Unit already has the Faith (X) Unit Special Ability, X is increased by +1.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3c9e-91ee-5fbc-6471" name="Brotherhood Assets" hidden="false" targetId="ff66-36e3-baa0-205c" primary="true"/>
+        <categoryLink id="b73a-f5ee-6f44-6f78" name="New CategoryLink" hidden="false" targetId="9680-a729-1b99-6ac1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="1.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="06f0-45c4-f170-c69d" name="Word of the Cardinal" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c513-b4fd-50ea-4221" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="4c09-4683-7a70-4c5d" name="Word of the Cardinal" hidden="false">
+          <description>Designate a Unit with the Leader Unit Designation and the Faith (X) Unit Special Abilities. This Unit may spend a Faith token to automatically Succeed on any TN (LD) Tests it takes. The decision to spend a Faith token may be made after a TN (LD) Test has been performed that resulted in a Failure.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8760-1a5a-d8d0-9a3e" name="Brotherhood Assets" hidden="false" targetId="ff66-36e3-baa0-205c" primary="true"/>
+        <categoryLink id="d970-d9a6-f5cd-b91d" name="New CategoryLink" hidden="false" targetId="9680-a729-1b99-6ac1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="1.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="baba-a6e9-d024-c7a3" name="Mortis Blade" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="cb7d-3026-55d7-b37b" name="Mortis Blade" hidden="false" targetId="96a4-e2fa-4fba-a6c2" type="profile"/>
+        <infoLink id="db1e-702a-dbf7-6a39" name="Reach (1)" hidden="false" targetId="2dab-4720-1bb4-2ca5" type="rule"/>
+        <infoLink id="0d32-c49b-45dc-3bbf" name="Vicious" hidden="false" targetId="8e6f-88bf-6ef2-e019" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2964-0d0e-c1ff-88de" name="Avenger Sword" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="63de-ad05-6357-ef28" name="Avenger Sword" hidden="false" targetId="3e81-a940-b71e-aeb5" type="profile"/>
+        <infoLink id="ecdd-7e3c-278a-2c30" name="Reach (1)" hidden="false" targetId="2dab-4720-1bb4-2ca5" type="rule"/>
+        <infoLink id="2018-d4f7-852c-7af5" name="Thrust (2)" hidden="false" targetId="d83a-60aa-3fca-a88d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="01ad-a045-5a6a-1ef4" name="Deliverer Battleblade" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5a41-bc8f-b36a-2fe3" name="Deliverer Battleblade" hidden="false" targetId="591e-954c-0d3d-3e0a" type="profile"/>
+        <infoLink id="0a73-63c4-b5e7-26cb" name="Reach (2)" hidden="false" targetId="df2a-c665-963d-53e1" type="rule"/>
+        <infoLink id="a49e-9c72-6f32-4879" name="Thrust (2)" hidden="false" targetId="d83a-60aa-3fca-a88d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5e0d-1c4f-a807-1c13" name="Silenced Nemesis Handgun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="01ab-59ee-02ae-6829" name="Silenced Nemesis Handgun" hidden="false" targetId="7790-6f81-5294-1431" type="profile"/>
+        <infoLink id="2feb-6c34-ca7f-2efc" name="Silenced" hidden="false" targetId="8d4a-823d-2301-4ad5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d1b8-b46e-beb4-4b79" name="Avalanche Handgun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c708-8333-1d73-72cb" name="Avalanche Handgun" hidden="false" targetId="c320-c37b-78df-99c2" type="profile"/>
+        <infoLink id="bd3e-9695-fe87-92af" name="Accurate (3)" hidden="false" targetId="e956-55f9-b831-3fc1" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5062-c4ca-7cde-b8d6" name="R75 Retributor Carbine" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="29a9-b6c7-9b4a-ae94" name="R75 Retributor Carbine" hidden="false" targetId="7c80-a479-f229-8af2" type="profile"/>
+        <infoLink id="2d38-3ca7-f291-b72c" name="Accurate (2)" hidden="false" targetId="7c88-d5ee-a89a-3601" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="af77-4681-38fc-ff17" name="Eruptor LMG" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="12d2-c1f4-c8d7-aa91" name="Eruptor LMG" hidden="false" targetId="7ba3-f2b0-a4c7-146a" type="profile"/>
+        <infoLink id="c481-2e21-891c-6dc6" name="Burst (2)" hidden="false" targetId="9afb-f7e9-f309-f445" type="rule"/>
+        <infoLink id="32ff-cb06-8625-f8ae" name="Recoil (3)" hidden="false" targetId="c927-b22f-b259-1e6b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1897-6e67-fe01-76b8" name="Eruptor Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="867c-e385-3e10-4923" name="Eruptor Flamethrower" hidden="false" targetId="db34-ebcc-0abb-b735" type="profile"/>
+        <infoLink id="21b6-6db9-e2c6-3f30" name="Continuous" hidden="false" targetId="46af-c31b-eab2-43fc" type="rule"/>
+        <infoLink id="474b-edad-e16f-dea0" name="Projected" hidden="false" targetId="1830-9b13-7aa4-9922" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d770-3b91-24eb-8370" name="Mortificators Trooper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="abed-edf9-bc75-5fcf" name="Mortificators Trooper" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">6</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">14</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">16</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-2</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">20</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">13</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">13</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a672-9567-a678-6645" name="Dodge" hidden="false" targetId="8009-b5b1-d147-7185" type="rule"/>
+        <infoLink id="0fd8-af48-fed9-a42d" name="Camouflage (2)" hidden="false" targetId="561a-f910-7ec1-6df9" type="rule"/>
+        <infoLink id="81a0-49a9-4af4-a391" name="Executioner (2)" hidden="false" targetId="3b1c-1521-170c-c82b" type="rule"/>
+        <infoLink id="16ca-0941-5412-a61c" name="Faith (1)" hidden="false" targetId="b9a0-8d66-f642-c3c0" type="rule"/>
+        <infoLink id="4803-76e5-4b83-e980" name="First Strike" hidden="false" targetId="bda4-e6c1-7a53-e93c" type="rule"/>
+        <infoLink id="008b-bdb9-3499-750e" name="Gymnastic" hidden="false" targetId="0d9b-fc88-e21b-08be" type="rule"/>
+        <infoLink id="53ea-ca6e-c867-789d" name="Shadowed" hidden="false" targetId="00e2-7f09-ac89-a48f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5668-fd2a-4ba2-185d" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c3c0-30ed-4f19-0cf0" name="Mortis Blade" hidden="false" collective="false" import="true" targetId="baba-a6e9-d024-c7a3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7781-3ad2-f440-e023" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8edc-474f-63c0-754d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f8fc-2c64-e4b4-b50b" name="Smoke Grenades" hidden="false" collective="false" import="true" targetId="a21f-e75a-b897-afc0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="460c-5eb6-ea91-495f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d51-67c4-4817-16ff" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a19a-1bf9-8e14-1e73" name="Silenced Nemesis Handgun" hidden="false" collective="false" import="true" targetId="5e0d-1c4f-a807-1c13" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3de7-3569-2691-5c35" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca36-d68a-73eb-7941" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="6.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d43-bcdf-70e2-addd" name="Mortificators Leader" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="72af-72e6-d80a-bc45" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d770-3b91-24eb-8370" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72af-72e6-d80a-bc45" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6f7d-792f-824d-bbc8" name="Mortificators Leader" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">6</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">15</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">17</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-2</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">20</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">13</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">15</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="aeac-172f-998c-9135" name="Dodge" hidden="false" targetId="8009-b5b1-d147-7185" type="rule"/>
+        <infoLink id="f954-9690-afdf-ea6f" name="Camouflage (2)" hidden="false" targetId="561a-f910-7ec1-6df9" type="rule"/>
+        <infoLink id="de55-ebc0-8884-5f95" name="Executioner (2)" hidden="false" targetId="3b1c-1521-170c-c82b" type="rule"/>
+        <infoLink id="e38f-9a74-dfa2-9220" name="Faith (1)" hidden="false" targetId="b9a0-8d66-f642-c3c0" type="rule"/>
+        <infoLink id="518f-3158-cab7-840b" name="First Strike" hidden="false" targetId="bda4-e6c1-7a53-e93c" type="rule"/>
+        <infoLink id="18aa-c2b6-71b2-f521" name="Gymnastic" hidden="false" targetId="0d9b-fc88-e21b-08be" type="rule"/>
+        <infoLink id="57b0-b50c-7e13-ce3b" name="Shadowed" hidden="false" targetId="00e2-7f09-ac89-a48f" type="rule"/>
+        <infoLink id="b3af-f49e-17d2-c403" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+        <infoLink id="056f-c17e-50c2-9bba" name="Command (Mortificators)" hidden="false" targetId="7eba-6268-ddb6-5c9e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8453-14f3-a7e8-e831" name="New CategoryLink" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2fc7-d583-4402-cd58" name="Avalanche Handgun" hidden="false" collective="false" import="true" targetId="d1b8-b46e-beb4-4b79" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e5b-b041-7547-8131" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3dc-9874-d428-c597" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="69c8-a996-7dd5-e5b5" name="Mortis Blade" hidden="false" collective="false" import="true" targetId="baba-a6e9-d024-c7a3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3990-fdcb-7f4c-ca2e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09ef-4fb5-af8f-01e9" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a0fc-d63c-2c78-c220" name="Smoke Grenades" hidden="false" collective="false" import="true" targetId="a21f-e75a-b897-afc0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="953f-267c-6196-4a5f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b179-69a0-113d-f493" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="7.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dbe6-165b-9d21-2993" name="Sacred Warriors Trooper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3ee5-0a48-0f67-7d0d" name="Sacred Warriors Trooper" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">12</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">14</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">5</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">23</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">13</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">13</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1c3c-1f9b-0f05-6a6d" name="Duelist (-2)" hidden="false" targetId="d5a9-7273-5345-451a" type="rule"/>
+        <infoLink id="c253-97cc-0a0d-4094" name="Faith (1)" hidden="false" targetId="b9a0-8d66-f642-c3c0" type="rule"/>
+        <infoLink id="0fb4-56c9-940b-73f2" name="Fearless" hidden="false" targetId="fef3-09ba-bc39-b724" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="add2-dc0f-f5de-797f" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="99f9-c660-1d77-6899" name="Avenger Sword" hidden="false" collective="false" import="true" targetId="2964-0d0e-c1ff-88de" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c4f-cb23-a8e0-352c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18dd-c5a3-c337-2dd3" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e565-fdc5-848b-e9fb" name="R75 Retributor Carbine" hidden="false" collective="false" import="true" targetId="5062-c4ca-7cde-b8d6" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b8b-84e3-a3c7-2544" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9b1-c8bd-c47e-e311" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="28ab-19d3-4252-c5c1" name="Sacred Warriors Support" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="13d6-cdee-490c-a3e0" name="Sacred Warriors Support" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">12</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">14</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">5</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">23</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">13</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">13</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="86b0-0f83-1bb6-506c" name="Duelist (-2)" hidden="false" targetId="d5a9-7273-5345-451a" type="rule"/>
+        <infoLink id="b12d-642e-0753-cb50" name="Faith (1)" hidden="false" targetId="b9a0-8d66-f642-c3c0" type="rule"/>
+        <infoLink id="2530-7a7c-2dd7-1ad5" name="Fearless" hidden="false" targetId="fef3-09ba-bc39-b724" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0ea9-1f18-5217-1f4a" name="New CategoryLink" hidden="false" targetId="72e5-3998-27b5-2257" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f476-19da-1ee6-171a" name="Avenger Sword" hidden="false" collective="false" import="true" targetId="2964-0d0e-c1ff-88de" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27e9-d633-30e0-6a95" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a583-99ec-e65b-7d04" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="99c6-8f08-c93d-8c2b" name="Eruptor LMG" hidden="false" collective="false" import="true" targetId="af77-4681-38fc-ff17" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b1e-fbf1-f337-6313" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cd4-fdf5-83b2-57f7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f025-3f20-22ad-d205" name="Eruptor Flamethrower" hidden="false" collective="false" import="true" targetId="1897-6e67-fe01-76b8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edcc-5c2c-9ae4-885c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdae-1055-6a7b-c8e9" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="24d4-f09a-840b-3eff" name="Fury Elite Guard Trooper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d9b4-d6e8-7294-bac6" name="Fury Elite Guard Trooper" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">16</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">5</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">23</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">3</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">14</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">16</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1d4f-eeab-79d5-4a51" name="Faith (1)" hidden="false" targetId="b9a0-8d66-f642-c3c0" type="rule"/>
+        <infoLink id="fbd6-183b-58dc-ee27" name="Fierce Charge" hidden="false" targetId="ec33-299c-dda9-7a79" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5fbe-4003-c9f4-6b60" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3be5-8fa8-84fa-8052" name="Deliverer Battleblade" hidden="false" collective="false" import="true" targetId="01ad-a045-5a6a-1ef4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9c9-b096-aee0-9cee" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7339-2e5e-a2c5-3d0b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d32d-1812-5e37-a1fb" name="Punisher Handgun" hidden="false" collective="false" import="true" targetId="9dd0-7a0c-26c2-2a32" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="226a-1ca5-6506-05b2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="122b-7df2-7b9a-fa8f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="6.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c363-665a-eef6-61a7" name="Fury Elite Guard Leader" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="e630-2116-c856-b58a" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="24d4-f09a-840b-3eff" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbe6-165b-9d21-2993" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d770-3b91-24eb-8370" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="e630-2116-c856-b58a" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5d43-bcdf-70e2-addd" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e630-2116-c856-b58a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a5ce-3e28-614a-737d" name="Fury Elite Guard Leader" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">16</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">5</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">23</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">3</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">14</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">16</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5693-dd61-9212-bfe4" name="Command (Any Brotherhood)" hidden="false" targetId="61a1-0853-8eda-910e" type="rule"/>
+        <infoLink id="6053-21b2-44de-7922" name="Fierce Charge" hidden="false" targetId="ec33-299c-dda9-7a79" type="rule"/>
+        <infoLink id="420d-2953-96b0-35d7" name="Faith (1)" hidden="false" targetId="b9a0-8d66-f642-c3c0" type="rule"/>
+        <infoLink id="7440-7b61-b1a4-1fb4" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="64b1-64d3-c5e5-0728" name="New CategoryLink" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f62a-d0e5-8529-4ffc" name="Deliverer Battleblade" hidden="false" collective="false" import="true" targetId="01ad-a045-5a6a-1ef4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc16-8630-c8dc-5ea5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3585-93ed-b5eb-8abc" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1eee-4c55-6237-05c2" name="Punisher Handgun" hidden="false" collective="false" import="true" targetId="9dd0-7a0c-26c2-2a32" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cfe-2a29-7b02-b99f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3d6-b08e-4147-682d" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="6.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-3.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="96a4-e2fa-4fba-a6c2" name="Mortis Blade" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">+1</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">ST+7</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">-</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">-</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">-</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">-</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">-</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Reach (1), Vicious</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3e81-a940-b71e-aeb5" name="Avenger Sword" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">+0</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">ST+8</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">-</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">-</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">-</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">-</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">-</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Reach (1), Thrust (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="591e-954c-0d3d-3e0a" name="Deliverer Battleblade" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-1</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">ST+9</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">-</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">-</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">-</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">-</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">-</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Reach (2), Thrust (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7790-6f81-5294-1431" name="Silenced Nemesis Handgun" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">+0</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">11</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 6&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+1</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">11</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">6&quot;-18&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">+0</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">11</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Silenced</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c320-c37b-78df-99c2" name="Avalanche Handgun" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-1</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">12</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 6&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+1</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">13</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">6&quot;-18&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">+0</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">12</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Accurate (3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7c80-a479-f229-8af2" name="R75 Retributor Carbine" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 8&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+2</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">12</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">8&quot;-24&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">+1</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">12</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Accurate (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7ba3-f2b0-a4c7-146a" name="Eruptor LMG" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 12&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+1</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">13</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">12&quot;-36&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">+0</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">12</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">18</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Burst (2), Recoil (3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="db34-ebcc-0abb-b735" name="Eruptor Flamethrower" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 10&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+3</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">11</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">-</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">-</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">18</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Continous, Projected</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

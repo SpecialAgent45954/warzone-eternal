@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="eaeb-df27-aa69-e0b2" name="Mishima" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="2788-cba8-7128-6e26" name="Daimyo" hidden="false" collective="false" import="true" targetId="bc59-5991-6524-5457" type="selectionEntry"/>
+    <entryLink id="3982-1c9a-b6ac-59c6" name="Hatamoto Leader" hidden="false" collective="false" import="true" targetId="0f76-4e7a-0b5d-a0e6" type="selectionEntry"/>
+    <entryLink id="f367-dc16-a4b2-cb99" name="Hatamoto Operator Specialist" hidden="false" collective="false" import="true" targetId="2195-a0a4-6fcd-3ddf" type="selectionEntry"/>
+    <entryLink id="8cdf-9a0c-f870-3b67" name="Hatamoto Support" hidden="false" collective="false" import="true" targetId="8d3c-fa9a-c56c-b0e0" type="selectionEntry"/>
+    <entryLink id="af95-0141-c56c-39a7" name="Hatamoto Trooper" hidden="false" collective="false" import="true" targetId="d62a-3ba8-37fe-5031" type="selectionEntry"/>
+    <entryLink id="0bf2-3750-d3f4-3f9d" name="Heirloom Blade" hidden="false" collective="false" import="true" targetId="103b-1333-1b45-5861" type="selectionEntry"/>
+    <entryLink id="4483-b87f-b313-d42f" name="Honored Charge" hidden="false" collective="false" import="true" targetId="028d-ec00-21d2-586b" type="selectionEntry"/>
+    <entryLink id="404d-833a-6242-e061" name="Shadow Walker Trooper" hidden="false" collective="false" import="true" targetId="900b-1806-781c-ddc7" type="selectionEntry"/>
+    <entryLink id="4268-c736-6bba-36f8" name="Shinobi Leader" hidden="false" collective="false" import="true" targetId="703f-5c91-b497-0387" type="selectionEntry"/>
+    <entryLink id="862d-3750-a33f-a557" name="Shinobi Medic Specialist" hidden="false" collective="false" import="true" targetId="002f-7f28-f8dd-093d" type="selectionEntry"/>
+    <entryLink id="37f5-1b7a-ae3a-6921" name="Shinobi Support" hidden="false" collective="false" import="true" targetId="89fb-773a-a683-dfae" type="selectionEntry"/>
+    <entryLink id="0add-414d-7f50-aea4" name="Shinobi Trooper" hidden="false" collective="false" import="true" targetId="56b2-56b3-8078-2e97" type="selectionEntry"/>
+    <entryLink id="6257-7e9d-7028-846b" name="Command Helmet" hidden="false" collective="false" import="true" targetId="35cf-eb9e-bbe8-2186" type="selectionEntry"/>
+    <entryLink id="bb03-898a-79f7-34e0" name="Cybernetic Power Arm" hidden="false" collective="false" import="true" targetId="3719-dc9e-9ed9-2401" type="selectionEntry"/>
+    <entryLink id="2677-d1b4-4ee3-815e" name="Extra Kit" hidden="false" collective="false" import="true" targetId="b35c-50ef-eca0-c939" type="selectionEntry"/>
+    <entryLink id="6041-a7f2-2e70-782a" name="Hyperactivator" hidden="false" collective="false" import="true" targetId="5fcb-2261-e905-c5b7" type="selectionEntry"/>
+    <entryLink id="89d5-855f-062f-c514" name="Intel Misdirection" hidden="false" collective="false" import="true" targetId="a9a5-49c1-4705-dc70" type="selectionEntry"/>
+    <entryLink id="1d40-7142-f6eb-75b0" name="Mission Critical" hidden="false" collective="false" import="true" targetId="de7b-84b3-7899-f7f2" type="selectionEntry"/>
+    <entryLink id="9388-c920-8e56-d33e" name="Agent Trooper" hidden="false" collective="false" import="true" targetId="a210-db16-5a37-433d" type="selectionEntry"/>
+    <entryLink id="a672-dd2e-a38a-f9e5" name="Mortificators Leader" hidden="false" collective="false" import="true" targetId="52de-08bc-a951-d007" type="selectionEntry"/>
+    <entryLink id="97ec-2323-4de0-1893" name="Mortificators Trooper" hidden="false" collective="false" import="true" targetId="0484-1d7f-a752-fea3" type="selectionEntry"/>
+    <entryLink id="8768-5f36-9000-582d" name="Necromutants Trooper" hidden="false" collective="false" import="true" targetId="b528-48b1-8692-9cbd" type="selectionEntry"/>
+    <entryLink id="1c85-9d57-312d-0bab" name="Undead Legionnaires Trooper" hidden="false" collective="false" import="true" targetId="c26d-d114-0481-8797" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="103b-1333-1b45-5861" name="Heirloom Blade" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01e6-d2f9-469f-cb1e" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="ad7c-f4ef-595c-249d" name="Heirloom Blade" hidden="false">
+          <description>Designate a Unit armed with Ceremonial Blades. That Unit’s Ceremonial Blades receives a x1 Damage Multiplier.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="137a-1e55-b286-1301" name="Mishima Assets" hidden="false" targetId="00a2-b7fd-4cf4-a785" primary="true"/>
+        <categoryLink id="b9c0-2fc9-7633-2e1a" name="New CategoryLink" hidden="false" targetId="9680-a729-1b99-6ac1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="1.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="028d-ec00-21d2-586b" name="Honored Charge" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b45b-c4cb-04ac-2fd8" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="7db0-96c1-b87f-0c63" name="Honored Charge" hidden="false">
+          <description>For one Turn per game, selected in the Start Turn Phase of that Turn, any Friendly Units that perform a Charge Action as their first Action gain +1 to their CC and ST Ratings for their Strike Actions carried out as part of that Charge Action.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1320-9dda-c2ef-27ce" name="Mishima Assets" hidden="false" targetId="00a2-b7fd-4cf4-a785" primary="true"/>
+        <categoryLink id="49f8-4877-e258-5a33" name="New CategoryLink" hidden="false" targetId="9680-a729-1b99-6ac1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="1.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bc59-5991-6524-5457" name="Daimyo" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5964-58e3-aded-f7e1" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="d2dc-222a-92d0-8436" name="Daimyo" hidden="false">
+          <description>Designate a Unit with the Leader Unit Designation and the Command (X) Unit Special Ability. When using the Command (X) Unit Special Ability, this Unit may select two Friendly Units per Action, as long as both Units have the Trooper Unit Designation.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="6183-3521-5aff-7d02" name="Mishima Assets" hidden="false" targetId="00a2-b7fd-4cf4-a785" primary="true"/>
+        <categoryLink id="122c-b2af-6c90-8762" name="New CategoryLink" hidden="false" targetId="9680-a729-1b99-6ac1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="1.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fe9f-e1ac-4259-fdfa" name="Ceremonial Blades" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7d61-a817-5010-a89b" name="Ceremonial Blades" hidden="false" targetId="d8df-0b39-8c4d-683d" type="profile"/>
+        <infoLink id="2c1a-a656-0b45-dd89" name="Reach (1)" hidden="false" targetId="2dab-4720-1bb4-2ca5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a76-33cd-0311-4b59" name="Poisoned Punisher Shortsword" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0f81-218c-0b88-9071" name="Poisoned Punisher Shortsword" hidden="false" targetId="eca8-d948-c4bc-567d" type="profile"/>
+        <infoLink id="d22c-5907-7362-effe" name="Reach (1)" hidden="false" targetId="2dab-4720-1bb4-2ca5" type="rule"/>
+        <infoLink id="7d93-71f8-4026-8fdc" name="Vicious" hidden="false" targetId="8e6f-88bf-6ef2-e019" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7616-62dc-152e-cc2d" name="Silenced Punisher Handgun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f355-0a9a-fd2f-9288" name="Silenced" hidden="false" targetId="8d4a-823d-2301-4ad5" type="rule"/>
+        <infoLink id="889b-04e7-e4dd-38fd" name="Silenced Punisher Handgun" hidden="false" targetId="2a68-74f8-fcca-3170" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d218-c67e-692f-89b8" name="Windrider SMG" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="782a-3dc6-e9f7-beb4" name="Windrider SMG" hidden="false" targetId="5046-4284-8481-25c5" type="profile"/>
+        <infoLink id="2229-4f08-5479-71b7" name="Burst (2)" hidden="false" targetId="9afb-f7e9-f309-f445" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fcd4-1b14-6841-ec7b" name="Airbrush Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1f59-e0c9-adca-e31e" name="Airbrush Shotgun" hidden="false" targetId="38bd-92c4-debb-50bb" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f50-e2e0-d58c-257e" name="Shogun Assault Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="87d4-e887-df22-89d4" name="Shogun Assault Rifle" hidden="false" targetId="ec1c-f463-c362-cf4a" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1419-7981-5951-66fe" name="Dragonfire HMG" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7b8c-4317-c12c-0f09" name="Dragonfire HMG" hidden="false" targetId="7656-670f-3d78-c984" type="profile"/>
+        <infoLink id="4a47-ab5c-12d8-bddb" name="Burst (3)" hidden="false" targetId="bd3c-3fd1-31a0-f4d9" type="rule"/>
+        <infoLink id="1c0e-3f3a-02c4-7498" name="Recoil (4)" hidden="false" targetId="4254-e2f3-1f4b-d782" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9da5-578f-4353-cf06" name="Archer Sniper Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ab0e-259b-3243-b15c" name="Archer Sniper Rifle" hidden="false" targetId="057c-2579-af44-cb5f" type="profile"/>
+        <infoLink id="854f-c9d4-1736-f2ea" name="Accurate (3)" hidden="false" targetId="e956-55f9-b831-3fc1" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d62a-3ba8-37fe-5031" name="Hatamoto Trooper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ce2f-7628-2523-a4d2" name="Hatamoto Trooper" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">16</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">0</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">23</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">11</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">13</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3c45-ba4b-a36f-e0ce" name="Duelist (-3)" hidden="false" targetId="a46e-511c-b6f2-21aa" type="rule"/>
+        <infoLink id="9be1-af4f-a417-9d73" name="Executioner (2)" hidden="false" targetId="3b1c-1521-170c-c82b" type="rule"/>
+        <infoLink id="fc7e-6b27-4df4-d675" name="Fearless" hidden="false" targetId="fef3-09ba-bc39-b724" type="rule"/>
+        <infoLink id="2344-d2ed-8c2f-afdb" name="Honorbound" hidden="false" targetId="cb39-d648-1406-df02" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="23c7-6420-8d64-f094" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="104c-ea92-e08c-48e1" name="Ceremonial Blades" hidden="false" collective="false" import="true" targetId="fe9f-e1ac-4259-fdfa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b346-8cb4-1a6e-249e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0a8-5799-05a7-5d95" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0e7c-1508-74ae-5a09" name="Shogun Assault Rifle" hidden="false" collective="false" import="true" targetId="9f50-e2e0-d58c-257e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bd1-6bea-f6ab-b1bd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da5a-ef61-09c5-7318" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0f76-4e7a-0b5d-a0e6" name="Hatamoto Leader" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="e4d8-b82f-a1f5-ba85" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d62a-3ba8-37fe-5031" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4d8-b82f-a1f5-ba85" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="adb9-ef47-af21-f10c" name="Hatamoto Leader" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">14</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">17</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">0</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">23</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">11</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">15</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d826-82e6-084c-00b2" name="Duelist (-3)" hidden="false" targetId="a46e-511c-b6f2-21aa" type="rule"/>
+        <infoLink id="bfe6-9937-a447-aef6" name="Executioner (2)" hidden="false" targetId="3b1c-1521-170c-c82b" type="rule"/>
+        <infoLink id="c83d-7387-1bd9-620e" name="Fearless" hidden="false" targetId="fef3-09ba-bc39-b724" type="rule"/>
+        <infoLink id="00da-fb54-3ad7-01ab" name="Honorbound" hidden="false" targetId="cb39-d648-1406-df02" type="rule"/>
+        <infoLink id="2c2c-8285-50d7-2697" name="Command (Hatamoto)" hidden="false" targetId="0b35-ff3f-4f61-337c" type="rule"/>
+        <infoLink id="4e2c-08cc-ed29-1148" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f841-87b5-de01-5116" name="Leader" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7b97-3401-1aec-8f15" name="Airbrush Shotgun" hidden="false" collective="false" import="true" targetId="fcd4-1b14-6841-ec7b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0409-ea44-baed-e71c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="752b-bdfe-0a89-5e7d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="771a-8ecc-6fe7-39bc" name="Ceremonial Blades" hidden="false" collective="false" import="true" targetId="fe9f-e1ac-4259-fdfa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a286-b1d2-4d73-fb13" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fcf-754b-899b-ec16" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="5.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2195-a0a4-6fcd-3ddf" name="Hatamoto Operator Specialist" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="903e-4b60-67ba-87df" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d62a-3ba8-37fe-5031" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="903e-4b60-67ba-87df" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="11a2-06cf-88e7-b709" name="Hatamoto Operator Specialist" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">16</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">0</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">23</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">11</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">13</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f948-0c71-aef8-0a1c" name="Duelist (-3)" hidden="false" targetId="a46e-511c-b6f2-21aa" type="rule"/>
+        <infoLink id="1f5a-ecc5-1e06-4ba8" name="Executioner (2)" hidden="false" targetId="3b1c-1521-170c-c82b" type="rule"/>
+        <infoLink id="23d6-9255-adbf-928e" name="Fearless" hidden="false" targetId="fef3-09ba-bc39-b724" type="rule"/>
+        <infoLink id="7231-315f-88da-1c3e" name="Honorbound" hidden="false" targetId="cb39-d648-1406-df02" type="rule"/>
+        <infoLink id="69db-f578-eca7-3b09" name="Tactical" hidden="false" targetId="bb24-5e32-1ea5-89d0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1722-aa13-8690-09d8" name="New CategoryLink" hidden="false" targetId="55c5-1db9-4a97-8ddd" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="580c-9bc6-aa2b-3757" name="Ceremonial Blades" hidden="false" collective="false" import="true" targetId="fe9f-e1ac-4259-fdfa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f35-f4a5-934b-a002" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f42-9044-14c1-c0bc" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8fca-5cb6-7c04-27f2" name="Shogun Assault Rifle" hidden="false" collective="false" import="true" targetId="9f50-e2e0-d58c-257e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9231-4e21-efe9-4bf1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0714-45ed-3e65-b1da" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a6ca-51af-b976-33a7" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="8329-5527-93c5-9e83" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1c1-3787-03c2-8889" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="786c-2d06-7a47-63c0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6105-ba5f-fecf-9f64" name="Smoke Grenades" hidden="false" collective="false" import="true" targetId="a21f-e75a-b897-afc0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8191-62e2-ddff-1ea1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa12-ecda-e1af-7a5e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8d3c-fa9a-c56c-b0e0" name="Hatamoto Support" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="55d5-ee05-edee-7044" name="Hatamoto Support" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">16</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">0</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">23</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">11</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">13</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="def1-fcfe-0872-4048" name="Duelist (-3)" hidden="false" targetId="a46e-511c-b6f2-21aa" type="rule"/>
+        <infoLink id="3e3f-6957-4f42-f5c7" name="Executioner (2)" hidden="false" targetId="3b1c-1521-170c-c82b" type="rule"/>
+        <infoLink id="1423-f51f-9f12-a4b0" name="Fearless" hidden="false" targetId="fef3-09ba-bc39-b724" type="rule"/>
+        <infoLink id="39a4-5301-dc2a-523f" name="Honorbound" hidden="false" targetId="cb39-d648-1406-df02" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e6a7-a8a4-2124-a2ba" name="New CategoryLink" hidden="false" targetId="72e5-3998-27b5-2257" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5eb8-a88d-d532-3ed5" name="Ceremonial Blades" hidden="false" collective="false" import="true" targetId="fe9f-e1ac-4259-fdfa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93ad-a86d-6566-ec6f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ad5-9e7b-ac45-16b4" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ee6b-96b0-4f0a-1928" name="Dragonfire HMG" hidden="false" collective="false" import="true" targetId="1419-7981-5951-66fe" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f18-cc46-6bc3-6dab" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb3e-0738-6034-dd5b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56b2-56b3-8078-2e97" name="Shinobi Trooper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6e40-0041-5ae4-cd9d" name="Shinobi Trooper" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">14</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">5</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">12</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">11</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e68b-e93c-719f-44a9" name="Duelist (-1)" hidden="false" targetId="2f0f-8408-46e3-c629" type="rule"/>
+        <infoLink id="f09a-a2cc-3c2c-bab7" name="Shift" hidden="false" targetId="ad14-9824-f7f5-9878" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bfab-4c60-730e-a2f1" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="68dc-624c-2e4a-3a25" name="Ceremonial Blades" hidden="false" collective="false" import="true" targetId="fe9f-e1ac-4259-fdfa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c80-da54-3018-70b8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f782-a900-8a19-f935" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4108-ce83-5e86-0b32" name="Windrider SMG" hidden="false" collective="false" import="true" targetId="d218-c67e-692f-89b8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f154-662e-4df0-9fe6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e65-8b3a-a39c-3291" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="703f-5c91-b497-0387" name="Shinobi Leader" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="961a-3d6b-70c9-a919" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56b2-56b3-8078-2e97" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="961a-3d6b-70c9-a919" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="93a9-2078-59f7-b044" name="Shinobi Leader" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">14</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">15</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">5</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">12</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">13</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9d38-3ab4-55e7-20ae" name="Duelist (-1)" hidden="false" targetId="2f0f-8408-46e3-c629" type="rule"/>
+        <infoLink id="3971-6087-f092-4103" name="Shift" hidden="false" targetId="ad14-9824-f7f5-9878" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2ad2-64f3-3acd-da71" name="New CategoryLink" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1c27-0a27-ad00-0ef6" name="Ceremonial Blades" hidden="false" collective="false" import="true" targetId="fe9f-e1ac-4259-fdfa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f638-e843-49c8-2f0f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a93-2a4e-e437-6f8e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="cb9b-04ab-03e7-7f35" name="Airbrush Shotgun" hidden="false" collective="false" import="true" targetId="fcd4-1b14-6841-ec7b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77c7-23dd-b5e1-b838" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ed3-e1ec-43a0-4ea2" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="5.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="002f-7f28-f8dd-093d" name="Shinobi Medic Specialist" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="7bcf-400d-1a8e-56cc" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="56b2-56b3-8078-2e97" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bcf-400d-1a8e-56cc" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ca40-bf2b-849c-e524" name="Shinobi Medic Specialist" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">14</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">5</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">12</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">11</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cd45-c32b-68db-9032" name="Duelist (-1)" hidden="false" targetId="2f0f-8408-46e3-c629" type="rule"/>
+        <infoLink id="51d5-2013-b619-17d1" name="First Aid (10)" hidden="false" targetId="f617-232d-6be5-b23f" type="rule"/>
+        <infoLink id="87ca-ee8f-5e38-5604" name="Shift" hidden="false" targetId="ad14-9824-f7f5-9878" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="50db-4e13-ed3c-c564" name="New CategoryLink" hidden="false" targetId="55c5-1db9-4a97-8ddd" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0f88-b0fc-1d95-ac62" name="Ceremonial Blades" hidden="false" collective="false" import="true" targetId="fe9f-e1ac-4259-fdfa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0975-609e-b2be-1748" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1df7-72c4-0c16-1571" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="157f-e0d7-914b-b955" name="Windrider SMG" hidden="false" collective="false" import="true" targetId="d218-c67e-692f-89b8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b86-c44f-bb66-ef0e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cdd-6587-2d76-3cac" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="89fb-773a-a683-dfae" name="Shinobi Support" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e97d-9f33-45d2-fa3b" name="Shinobi Support" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">14</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">5</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">12</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">11</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a0a0-5061-980e-df19" name="Duelist (-1)" hidden="false" targetId="2f0f-8408-46e3-c629" type="rule"/>
+        <infoLink id="e064-bde9-ef10-07c1" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+        <infoLink id="128a-3f6d-53f5-2772" name="Shift" hidden="false" targetId="ad14-9824-f7f5-9878" type="rule"/>
+        <infoLink id="7156-d166-3042-9d46" name="Command (Shinobi)" hidden="false" targetId="8157-d69e-19d9-af49" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e85f-bb89-295c-3fa6" name="New CategoryLink" hidden="false" targetId="72e5-3998-27b5-2257" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c9a9-6fac-60bb-91b0" name="Ceremonial Blades" hidden="false" collective="false" import="true" targetId="fe9f-e1ac-4259-fdfa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbed-56e2-3692-7203" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea29-aa26-2730-3934" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0d18-82ea-bad8-1dc1" name="Archer Sniper Rifle" hidden="false" collective="false" import="true" targetId="9da5-578f-4353-cf06" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ed9-4fb6-f197-f880" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b0a-029d-8575-744c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="900b-1806-781c-ddc7" name="Shadow Walker Trooper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4e2f-b5d0-decd-9f5a" name="Shadow Walker Trooper" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">6</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">12</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">15</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-2</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">20</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">12</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">13</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8515-f7c2-0aca-fd0c" name="Blur (-2)" hidden="false" targetId="3d96-a820-3c45-6d72" type="rule"/>
+        <infoLink id="5f6e-9570-993b-cb1f" name="Camouflage (2)" hidden="false" targetId="561a-f910-7ec1-6df9" type="rule"/>
+        <infoLink id="e99f-79b2-53d2-6574" name="Fearless" hidden="false" targetId="fef3-09ba-bc39-b724" type="rule"/>
+        <infoLink id="94a2-33bf-45df-6ab5" name="First Strike" hidden="false" targetId="bda4-e6c1-7a53-e93c" type="rule"/>
+        <infoLink id="77f0-f5de-f529-69fd" name="Tactical" hidden="false" targetId="bb24-5e32-1ea5-89d0" type="rule"/>
+        <infoLink id="33f8-e827-cc04-10de" name="Volatile End (1, 8)" hidden="false" targetId="d9ab-5de9-61bd-5f87" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c906-5848-5b69-170d" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9a1b-3458-4867-ad98" name="Poisoned Punisher Shortsword" hidden="false" collective="false" import="true" targetId="6a76-33cd-0311-4b59" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b398-0c5c-651a-cac2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5d8-047b-8868-a756" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="65ef-714a-e377-ded0" name="Silenced Punisher Handgun" hidden="false" collective="false" import="true" targetId="7616-62dc-152e-cc2d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd35-b15b-681d-9424" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ab7-b093-ca7b-a867" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f807-e2ce-f258-91a4" name="Smoke Grenades" hidden="false" collective="false" import="true" targetId="a21f-e75a-b897-afc0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7930-300c-455d-6eca" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94a4-6d27-912e-cda3" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="5.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="d8df-0b39-8c4d-683d" name="Ceremonial Blades" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">+2</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">ST+8</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">-</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">-</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">-</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">-</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">-</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Reach (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="eca8-d948-c4bc-567d" name="Poisoned Punisher Shortsword" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">+1</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">ST+7x2</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">-</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">-</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">-</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">-</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">-</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Reach (1), Vicious</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2a68-74f8-fcca-3170" name="Silenced Punisher Handgun" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-2</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">12</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 6&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+0</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">13</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">6&quot;-18&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-2</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">12</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Silenced</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5046-4284-8481-25c5" name="Windrider SMG" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 6&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+1</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">11</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">6&quot;-18&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">+0</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">11</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">19</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Burst (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="38bd-92c4-debb-50bb" name="Airbrush Shotgun" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 6&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+0</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">12x2</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">6&quot;-18&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-3</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">11</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ec1c-f463-c362-cf4a" name="Shogun Assault Rifle" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 12&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+1</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">12</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">12&quot;-36&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">+0</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">12</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7656-670f-3d78-c984" name="Dragonfire HMG" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 24&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+0</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">14</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">24&quot;-48&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-1</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">13</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">18</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Burst (3), Recoil (4)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="057c-2579-af44-cb5f" name="Archer Sniper Rifle" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 24&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+2</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">13</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">24&quot;-48&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">+1</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">13</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Accurate (3)</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

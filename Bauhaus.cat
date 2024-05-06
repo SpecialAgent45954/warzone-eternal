@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="4668-e411-f37b-a531" name="Bauhaus" revision="1" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Copyright Res Nova LLC, Heroic Signatures, 2024</readme>
+  <entryLinks>
+    <entryLink id="0768-35b1-302d-7ac3" name="Venusian Ranger Trooper" hidden="false" collective="false" import="true" targetId="693c-c756-d911-84db" type="selectionEntry"/>
+    <entryLink id="46b5-de49-837a-eff7" name="Venusian Ranger Leader" hidden="false" collective="false" import="true" targetId="bbdf-f567-439e-157a" type="selectionEntry"/>
+    <entryLink id="2918-cace-2305-5258" name="Venusian Ranger HMG Support" hidden="false" collective="false" import="true" targetId="7a55-669e-53b0-1a20" type="selectionEntry"/>
+    <entryLink id="d6af-d0f1-918c-5fa4" name="Venusian Ranger Medic Specialist" hidden="false" collective="false" import="true" targetId="e3bd-1be8-2916-de14" type="selectionEntry"/>
+    <entryLink id="0f0a-c849-82bf-2f17" name="Blitzer Leader" hidden="false" collective="false" import="true" targetId="46ea-dafd-1e05-a059" type="selectionEntry"/>
+    <entryLink id="cfcc-acd6-c530-e6d2" name="Blitzer Operator Specialist" hidden="false" collective="false" import="true" targetId="247b-a2a5-f4a3-3763" type="selectionEntry"/>
+    <entryLink id="f1f8-1fc5-c1dd-d73c" name="Blitzer Support" hidden="false" collective="false" import="true" targetId="78fb-c5a2-c985-2344" type="selectionEntry"/>
+    <entryLink id="15d7-da11-0262-5bb0" name="Blitzer Trooper" hidden="false" collective="false" import="true" targetId="eb82-6109-9a3d-6af9" type="selectionEntry"/>
+    <entryLink id="7274-a5df-a414-d670" name="Etoiles Mortant Leader" hidden="false" collective="false" import="true" targetId="27ff-60b9-b9ed-8506" type="selectionEntry"/>
+    <entryLink id="b432-5edc-cecf-36cf" name="Etoiles Mortant Support" hidden="false" collective="false" import="true" targetId="c2b6-40d2-1736-1fc6" type="selectionEntry"/>
+    <entryLink id="cf1c-1bf9-dba5-f71b" name="Etoiles Mortant Trooper" hidden="false" collective="false" import="true" targetId="da5d-36e0-7a11-06e0" type="selectionEntry"/>
+    <entryLink id="0c3c-2db8-8457-4f0e" name="Fire Support" hidden="false" collective="false" import="true" targetId="13f5-52d1-4965-803e" type="selectionEntry"/>
+    <entryLink id="d455-277c-4107-1e8f" name="Reliability" hidden="false" collective="false" import="true" targetId="1fb3-ed52-f89a-18a2" type="selectionEntry"/>
+    <entryLink id="f75e-f98e-f74c-63a1" name="The Moment Has Come!" hidden="false" collective="false" import="true" targetId="8b28-1ef4-3337-04a9" type="selectionEntry"/>
+    <entryLink id="e3cc-3cd8-0fc6-0538" name="Command Helmet" hidden="false" collective="false" import="true" targetId="35cf-eb9e-bbe8-2186" type="selectionEntry"/>
+    <entryLink id="27f3-f458-7101-6168" name="Cybernetic Power Arm" hidden="false" collective="false" import="true" targetId="3719-dc9e-9ed9-2401" type="selectionEntry"/>
+    <entryLink id="e04e-6ebb-e6d5-781e" name="Extra Kit" hidden="false" collective="false" import="true" targetId="b35c-50ef-eca0-c939" type="selectionEntry"/>
+    <entryLink id="7d76-e43e-06ec-4236" name="Hyperactivator" hidden="false" collective="false" import="true" targetId="5fcb-2261-e905-c5b7" type="selectionEntry"/>
+    <entryLink id="da87-abc3-8f72-9232" name="Intel Misdirection" hidden="false" collective="false" import="true" targetId="a9a5-49c1-4705-dc70" type="selectionEntry"/>
+    <entryLink id="8383-8cd0-22c8-51a3" name="Mission Critical" hidden="false" collective="false" import="true" targetId="de7b-84b3-7899-f7f2" type="selectionEntry"/>
+    <entryLink id="3ddc-a2ba-15f0-a262" name="Agent Trooper" hidden="false" collective="false" import="true" targetId="a210-db16-5a37-433d" type="selectionEntry"/>
+    <entryLink id="9d6e-6b50-c682-2ea2" name="Mortificators Leader" hidden="false" collective="false" import="true" targetId="52de-08bc-a951-d007" type="selectionEntry"/>
+    <entryLink id="afdc-2a22-bab8-1e19" name="Mortificators Trooper" hidden="false" collective="false" import="true" targetId="0484-1d7f-a752-fea3" type="selectionEntry"/>
+    <entryLink id="f6dd-09ab-74fd-a9a5" name="Undead Legionnaires Trooper" hidden="false" collective="false" import="true" targetId="c26d-d114-0481-8797" type="selectionEntry"/>
+    <entryLink id="aba6-9f1a-6f9b-9882" name="Necromutants Trooper" hidden="false" collective="false" import="true" targetId="b528-48b1-8692-9cbd" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="693c-c756-d911-84db" name="Venusian Rangers Trooper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d697-5c0d-0139-a335" name="Venusian Rangers Trooper" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">14</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">12</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">0</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">22</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">12</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">12</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6f7d-fe17-ba55-b9dc" name="Determination" hidden="false" targetId="89c6-0beb-4967-9757" type="rule"/>
+        <infoLink id="1be2-c795-4154-9178" name="Camouflage (1)" hidden="false" targetId="f905-353e-70fd-5044" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c7c6-1183-f1ed-775e" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e8ea-d530-304d-40fc" name="MP-105 Handgun" hidden="false" collective="false" import="true" targetId="40d7-3af0-dde8-5833" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17d9-16dd-ce21-f7c3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd9d-47fa-8314-3807" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5cda-00a5-753a-d00a" name="AG-17 Assault Rifle" hidden="false" collective="false" import="true" targetId="95b1-4fcf-3412-e906" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ceb4-e5b7-c43b-7409" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08fd-73c3-ea4e-d3e8" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a55-669e-53b0-1a20" name="Venusian Rangers HMG Support" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="815b-b61c-8c7e-7d2f" name="Venusian Rangers HMG Support" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">14</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">12</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">0</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">22</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">12</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">12</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2bd7-2730-68a1-4367" name="Determination" hidden="false" targetId="89c6-0beb-4967-9757" type="rule"/>
+        <infoLink id="6033-a411-f6de-5968" name="Camouflage (1)" hidden="false" targetId="f905-353e-70fd-5044" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0c9b-19af-b60a-bc22" name="Support" hidden="false" targetId="72e5-3998-27b5-2257" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ecb3-14e3-44bd-a1d4" name="MP-105 Handgun" hidden="false" collective="false" import="true" targetId="40d7-3af0-dde8-5833" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ee7-a655-fbaf-3fa5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9c8-e892-f459-0160" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e70d-9b45-b1bd-38d2" name="MG-80 HMG" hidden="false" collective="false" import="true" targetId="a47a-ff0a-bb8b-3245" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f44-697c-ffff-4ed5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="205c-52fb-8a15-bd69" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bbdf-f567-439e-157a" name="Venusian Rangers Leader" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="a5da-e8cf-648f-a36a" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="693c-c756-d911-84db" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5da-e8cf-648f-a36a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5892-25a0-9d5c-bf65" name="Venusian Rangers Leader" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">15</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">13</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">0</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">22</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">12</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">14</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="71bc-ac66-00aa-6dfd" name="Determination" hidden="false" targetId="89c6-0beb-4967-9757" type="rule"/>
+        <infoLink id="a06e-1f5e-c11d-eb71" name="Camouflage (1)" hidden="false" targetId="f905-353e-70fd-5044" type="rule"/>
+        <infoLink id="9b51-1b23-1e80-9266" name="Command (Venusian Rangers)" hidden="false" targetId="dc57-80fa-b920-c656" type="rule"/>
+        <infoLink id="53a6-0992-c28d-fa07" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c56d-73d9-0212-a646" name="Leader" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2781-bce5-da74-d34c" name="MP-105 Handgun" hidden="false" collective="false" import="true" targetId="40d7-3af0-dde8-5833" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9810-b411-6cc7-cb3d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cff-6f0c-1082-d15b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1630-32e8-fb6d-80b8" name="HG-14 Shotgun" hidden="false" collective="false" import="true" targetId="d980-a576-21db-3a64" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b44-b37c-b951-6eff" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4760-0d94-3e1d-e8e1" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="5.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e3bd-1be8-2916-de14" name="Venusian Rangers Medic Specialist" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="c1e9-8076-5d5e-53b1" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="693c-c756-d911-84db" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1e9-8076-5d5e-53b1" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a3c6-898b-8286-4dc3" name="Venusian Rangers Medic Specialist" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">14</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">12</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">0</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">22</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">12</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">12</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1045-30cf-f40d-760c" name="Determination" hidden="false" targetId="89c6-0beb-4967-9757" type="rule"/>
+        <infoLink id="b64f-5587-61a0-a1ca" name="Camouflage (1)" hidden="false" targetId="f905-353e-70fd-5044" type="rule"/>
+        <infoLink id="727f-ad7e-4a57-6709" name="First Aid (12)" hidden="false" targetId="e555-cabf-1f94-04b1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5ff6-3359-bfc4-a5e6" name="Specialist" hidden="false" targetId="55c5-1db9-4a97-8ddd" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9e26-7e84-b39c-3291" name="MP-105 Handgun" hidden="false" collective="false" import="true" targetId="40d7-3af0-dde8-5833" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0fe-383d-99de-ab28" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7506-fa7a-6245-e9b5" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bfc4-c680-4bab-c862" name="AG-17 Assault Rifle" hidden="false" collective="false" import="true" targetId="95b1-4fcf-3412-e906" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c445-afbb-02b3-26dc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="715a-a2e9-05f9-26bd" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ac61-faac-a21d-2155" name="MP-103 SMG" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0156-915b-b616-311c" name="MP-103 SMG" hidden="false" targetId="a318-1f7c-22e2-7782" type="profile"/>
+        <infoLink id="0c9b-3693-0413-117e" name="Burst (2)" hidden="false" targetId="9afb-f7e9-f309-f445" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d980-a576-21db-3a64" name="HG-14 Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="452e-b555-bd44-9107" name="HG-14 Shotgun" hidden="false" targetId="2389-0863-c4af-6d93" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="95b1-4fcf-3412-e906" name="AG-17 Assault Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="37c2-ae1f-399a-42b2" name="AG-17 Assault Rifle" hidden="false" targetId="f4c8-4ae6-b6ff-2917" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a47a-ff0a-bb8b-3245" name="MG-80 HMG" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="36e9-574b-416a-10e9" name="MG-80 HMG" hidden="false" targetId="3283-a613-5d29-71da" type="profile"/>
+        <infoLink id="c705-eb94-b492-ce54" name="Recoil (4)" hidden="false" targetId="4254-e2f3-1f4b-d782" type="rule"/>
+        <infoLink id="b7ec-147e-3480-ab19" name="Burst (3)" hidden="false" targetId="bd3c-3fd1-31a0-f4d9" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="40d7-3af0-dde8-5833" name="MP-105 Handgun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5051-14b1-9eba-4ae7" name="MP-105 Handgun" hidden="false" targetId="c0b7-ed9e-62ef-a197" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da6a-2f5e-b707-1aa5" name="PSG-99 Sniper Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="325c-eab3-741e-92b8" name="PSG-99 Sniper Rifle" hidden="false" targetId="2f05-4204-9715-5ceb" type="profile"/>
+        <infoLink id="df70-0c3d-89f4-d086" name="Accurate (3)" hidden="false" targetId="e956-55f9-b831-3fc1" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eb82-6109-9a3d-6af9" name="Blitzers Trooper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7378-08d8-fd0c-5307" name="Blitzers Trooper" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">13</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">5</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">11</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">12</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="37aa-7cc9-af02-3d83" name="Blitz" hidden="false" targetId="8ca5-ae28-a531-c385" type="rule"/>
+        <infoLink id="1f39-2cb4-4be2-c29e" name="Trailblaze" hidden="false" targetId="e3e2-a693-37a4-3eb7" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="43a2-7063-e150-8bce" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="352e-8753-b03a-a19d" name="MP-105 Handgun" hidden="false" collective="false" import="true" targetId="40d7-3af0-dde8-5833" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a44-bf38-a4b7-d6b6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c73-dbc6-b984-8e50" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="23c9-cc26-855f-f8c7" name="MP-103 SMG" hidden="false" collective="false" import="true" targetId="ac61-faac-a21d-2155" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19c3-96e3-da93-c805" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="040c-89d9-c17a-b790" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="46ea-dafd-1e05-a059" name="Blitzers Leader" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="2ffa-260f-f281-bef0" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb82-6109-9a3d-6af9" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ffa-260f-f281-bef0" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0128-8be1-202f-d836" name="Blitzers Leader" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">14</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">14</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">5</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">11</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">14</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="59e8-e28c-fcf9-7492" name="Blitz" hidden="false" targetId="8ca5-ae28-a531-c385" type="rule"/>
+        <infoLink id="718f-9133-75f5-b7b2" name="Trailblaze" hidden="false" targetId="e3e2-a693-37a4-3eb7" type="rule"/>
+        <infoLink id="e46c-e888-39c2-3321" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+        <infoLink id="eacd-5ad5-f711-915e" name="Command (Blitzers)" hidden="false" targetId="9ef5-badd-6260-18c1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6f0d-d315-2534-287d" name="Leader" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d889-fe05-1248-58b0" name="MP-105 Handgun" hidden="false" collective="false" import="true" targetId="40d7-3af0-dde8-5833" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e18-0a96-ab92-d7fc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd47-81d9-98bf-1697" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="edc9-1583-99c9-cd23" name="HG-14 Shotgun" hidden="false" collective="false" import="true" targetId="d980-a576-21db-3a64" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="119d-4eea-ca26-56bf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4c0-ee58-a384-0d0f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="5.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="247b-a2a5-f4a3-3763" name="Blitzers Operator Specialist" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="ca04-e3c8-da40-c69f" value="0.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb82-6109-9a3d-6af9" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca04-e3c8-da40-c69f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2c90-ca0f-28b6-70f0" name="Blitzers Operator Specialist" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">13</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">5</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">11</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">12</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1efb-e6d5-1b44-dabc" name="Blitz" hidden="false" targetId="8ca5-ae28-a531-c385" type="rule"/>
+        <infoLink id="79ef-d408-155a-1d57" name="Trailblaze" hidden="false" targetId="e3e2-a693-37a4-3eb7" type="rule"/>
+        <infoLink id="b1b6-c0aa-c554-b932" name="Tactical" hidden="false" targetId="bb24-5e32-1ea5-89d0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2afc-1656-3f19-d38e" name="Specialist" hidden="false" targetId="55c5-1db9-4a97-8ddd" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d3a4-f52f-266e-0845" name="MP-105 Handgun" hidden="false" collective="false" import="true" targetId="40d7-3af0-dde8-5833" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e890-0b66-72fa-2b4b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3497-8d05-be4a-27d3" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b203-25c5-3040-bb38" name="MP-103 SMG" hidden="false" collective="false" import="true" targetId="ac61-faac-a21d-2155" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9471-0cc6-79e5-b17f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0524-6468-f828-7827" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8ae6-14a3-73dd-9fe6" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="8329-5527-93c5-9e83" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70f6-0d99-0197-69c2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc84-fce5-fb86-9c95" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8b95-811a-f4ce-1a34" name="Smoke Grenades" hidden="false" collective="false" import="true" targetId="a21f-e75a-b897-afc0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed6f-100a-365e-c4e0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="279e-d791-8de0-8e43" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="78fb-c5a2-c985-2344" name="Blitzers Support" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="35b3-10d0-20ce-9bd9" name="Blitzers Support" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">13</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">5</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">11</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">12</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f2e9-8c05-fd66-b526" name="Blitz" hidden="false" targetId="8ca5-ae28-a531-c385" type="rule"/>
+        <infoLink id="d978-b8c4-fc2d-fd59" name="Trailblaze" hidden="false" targetId="e3e2-a693-37a4-3eb7" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1d1d-ea57-a70a-1778" name="Support" hidden="false" targetId="72e5-3998-27b5-2257" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d534-c425-b5ed-8c68" name="MP-105 Handgun" hidden="false" collective="false" import="true" targetId="40d7-3af0-dde8-5833" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3573-7e23-f135-83b8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de4b-0f5e-9a14-2e83" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="61bf-300b-93b2-289a" name="Gehenna Puker" hidden="false" collective="false" import="true" targetId="1a52-130f-2140-58a5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25e8-5bed-ecfe-ba8a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="895f-f8d6-f61c-3722" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da5d-36e0-7a11-06e0" name="Etoiles Mortant Trooper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="37b2-8788-1701-c270" name="Etoiles Mortant Trooper" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">12</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">15</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-2</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">20</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">13</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">13</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9498-fdfb-00c4-bd88" name="Awareness" hidden="false" targetId="49fd-f6db-33f6-c152" type="rule"/>
+        <infoLink id="4362-fe16-2ade-d111" name="Dodge" hidden="false" targetId="8009-b5b1-d147-7185" type="rule"/>
+        <infoLink id="d148-692f-df0a-5ae9" name="Evasive (X)" hidden="false" targetId="e0f8-e581-e02a-ba21" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ca46-73a7-297f-1b4d" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6985-4322-2ec4-ddb0" name="Punisher Handgun" hidden="false" collective="false" import="true" targetId="9dd0-7a0c-26c2-2a32" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b562-0321-c31c-0bdd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90c4-ff1d-dcc2-97e0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9151-4bcf-fcf6-f8fe" name="Punisher Shortsword" hidden="false" collective="false" import="true" targetId="7f4c-4208-55ef-2fbc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db81-b752-4481-f2f5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0e9-8270-ab84-306e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="27ff-60b9-b9ed-8506" name="Etoiles Mortant Leader" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="983d-66a1-d4f6-bc71" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="da5d-36e0-7a11-06e0" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="983d-66a1-d4f6-bc71" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="07bc-4eba-d85c-f5a6" name="Etoiles Mortant Leader" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">16</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-2</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">20</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">13</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">15</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b377-38a8-4e7f-cc35" name="Awareness" hidden="false" targetId="49fd-f6db-33f6-c152" type="rule"/>
+        <infoLink id="0609-8786-bbcc-8797" name="Dodge" hidden="false" targetId="8009-b5b1-d147-7185" type="rule"/>
+        <infoLink id="f1e1-d8e4-e4f3-5923" name="Evasive (X)" hidden="false" targetId="e0f8-e581-e02a-ba21" type="rule"/>
+        <infoLink id="c691-eade-9290-3ff7" name="Command (Etoiles Mortant)" hidden="false" targetId="53a3-50f3-2475-7c69" type="rule"/>
+        <infoLink id="fae9-c704-62b4-6931" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="440a-098c-0d17-d909" name="Leader" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="240b-ac66-fa97-49c9" name="Punisher Handgun" hidden="false" collective="false" import="true" targetId="9dd0-7a0c-26c2-2a32" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24d4-0881-6805-9051" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2677-291f-3685-3fb7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4bc7-cc00-976e-9bb8" name="Punisher Shortsword" hidden="false" collective="false" import="true" targetId="7f4c-4208-55ef-2fbc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dd8-cad1-07ab-1bc7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36aa-271a-a859-b2bd" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="5.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c2b6-40d2-1736-1fc6" name="Etoiles Mortant Support" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="cf47-917f-31f1-60cf" name="Etoiles Mortant Support" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">12</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">15</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-2</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">20</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">13</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">13</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5122-8540-8faf-8dfa" name="Awareness" hidden="false" targetId="49fd-f6db-33f6-c152" type="rule"/>
+        <infoLink id="dbaa-a885-d334-a024" name="Dodge" hidden="false" targetId="8009-b5b1-d147-7185" type="rule"/>
+        <infoLink id="c1b9-437b-c709-a05a" name="Evasive (X)" hidden="false" targetId="e0f8-e581-e02a-ba21" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="679d-c585-48ce-5b24" name="Support" hidden="false" targetId="72e5-3998-27b5-2257" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a6a3-0e64-1132-a3f3" name="Punisher Handgun" hidden="false" collective="false" import="true" targetId="9dd0-7a0c-26c2-2a32" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d753-b0a0-6073-75da" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aecd-b357-d705-2f7b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2ec2-0324-9d8f-2294" name="PSG-99 Sniper Rifle" hidden="false" collective="false" import="true" targetId="da6a-2f5e-b707-1aa5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ade-feb0-4962-1411" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="852b-21f9-4eeb-a69f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="13f5-52d1-4965-803e" name="Fire Support" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5771-7ac5-7f21-75e2" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="c9a1-7f5a-2182-696f" name="Fire Support" hidden="false">
+          <description>Once per game, in the Start Turn Phase of any Turn, designate up to two Enemy Units within 12” of each other and at least 8” from any Friendly Unit. For the duration of that Turn, those designated Enemy Units may not perform Ambush or Counterattack Reactions.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="197d-25d1-6692-1575" name="Bauhaus Assets" hidden="false" targetId="955b-91bb-36e9-cacb" primary="true"/>
+        <categoryLink id="c005-74d7-203f-d5f1" name="New CategoryLink" hidden="false" targetId="9680-a729-1b99-6ac1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="1.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1fb3-ed52-f89a-18a2" name="Reliability" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fac4-7179-096b-34c8" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="0831-db10-0f1b-a60c" name="Reliability" hidden="false">
+          <description>For one Turn per game, selected in the Start Turn Phase of that Turn, when any Friendly Unit’s Shoot Action results in a Critical Failure, the Unit does not receive a Reload Counter.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="ed63-cd06-caca-bc73" name="Bauhaus Assets" hidden="false" targetId="955b-91bb-36e9-cacb" primary="true"/>
+        <categoryLink id="966c-8672-76d3-a5e6" name="New CategoryLink" hidden="false" targetId="9680-a729-1b99-6ac1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="1.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b28-1ef4-3337-04a9" name="The Moment Has Come!" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24ca-b258-e112-e990" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="20e5-83c4-aee4-5c24" name="The Moment Has Come!" hidden="false">
+          <description>Once per game, before rolling for Initiative in the Start Turn Phase of any Turn after the first, this Force is considered to have rolled a “1”, regardless of actual result on the d20.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="113c-87f6-cb0f-8ff5" name="Bauhaus Assets" hidden="false" targetId="955b-91bb-36e9-cacb" primary="true"/>
+        <categoryLink id="6a2e-67fb-0764-a362" name="New CategoryLink" hidden="false" targetId="9680-a729-1b99-6ac1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="1.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="f4c8-4ae6-b6ff-2917" name="AG-17 Assault Rifle" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 12&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+0</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">12 </characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">12&quot;-36&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-1</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">12</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c0b7-ed9e-62ef-a197" name="MP-105 Handgun" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">+0</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">12</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 6&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+1</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">12</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">6&quot;-18&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-1</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">12</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3283-a613-5d29-71da" name="MG-80 HMG" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 24&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+0</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">14</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">24&quot;-48&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-2</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">13</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">19</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Burst (3), Recoil (4)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2389-0863-c4af-6d93" name="HG-14 Shotgun" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 6&quot; </characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+1</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">13x2</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">6&quot;-18&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-2</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">11</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a318-1f7c-22e2-7782" name="MP-103 SMG" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">Up to 6&quot;	+0/12</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 6&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+0</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">12</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">6&quot;-18&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-1</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">11</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">19</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Burst (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2f05-4204-9715-5ceb" name="PSG-99 Sniper Rifle" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 24&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+1</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">14</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">24&quot;-48&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">+1</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">13</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Accurate (3)</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
