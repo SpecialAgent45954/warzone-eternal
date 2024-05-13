@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="1" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="2" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Copyright Res Nova LLC, Heroic Signatures, 2024</readme>
   <costTypes>
     <costType id="e87f-c529-f945-edc6" name=" Deployment Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -511,9 +511,14 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="increment" field="3526-ca34-d789-2052" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0484-1d7f-a752-fea3" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3526-ca34-d789-2052" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3526-ca34-d789-2052" type="max"/>
       </constraints>
       <profiles>
         <profile id="40fa-bceb-ba85-bc51" name="Mortificators Leader" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
