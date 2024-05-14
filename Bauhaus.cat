@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4668-e411-f37b-a531" name="Bauhaus" revision="2" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4668-e411-f37b-a531" name="Bauhaus" revision="3" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Copyright Res Nova LLC, Heroic Signatures, 2024</readme>
   <entryLinks>
     <entryLink id="0768-35b1-302d-7ac3" name="Venusian Ranger Trooper" hidden="false" collective="false" import="true" targetId="693c-c756-d911-84db" type="selectionEntry"/>
@@ -748,7 +748,7 @@
     <profile id="a318-1f7c-22e2-7782" name="MP-103 SMG" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
       <characteristics>
         <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
-        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">Up to 6&quot;</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
         <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 6&quot;</characteristic>
         <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+0</characteristic>
         <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">12</characteristic>
