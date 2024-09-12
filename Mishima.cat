@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eaeb-df27-aa69-e0b2" name="Mishima" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eaeb-df27-aa69-e0b2" name="Mishima" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="2788-cba8-7128-6e26" name="Daimyo" hidden="false" collective="false" import="true" targetId="bc59-5991-6524-5457" type="selectionEntry"/>
     <entryLink id="3982-1c9a-b6ac-59c6" name="Hatamoto Leader" hidden="false" collective="false" import="true" targetId="0f76-4e7a-0b5d-a0e6" type="selectionEntry"/>
@@ -448,6 +448,8 @@
       <infoLinks>
         <infoLink id="9d38-3ab4-55e7-20ae" name="Duelist (-1)" hidden="false" targetId="2f0f-8408-46e3-c629" type="rule"/>
         <infoLink id="3971-6087-f092-4103" name="Shift" hidden="false" targetId="ad14-9824-f7f5-9878" type="rule"/>
+        <infoLink id="4d0f-2dd0-7cb4-704d" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+        <infoLink id="e536-5648-5bb4-72fc" name="Command (Shinobi)" hidden="false" targetId="8157-d69e-19d9-af49" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2ad2-64f3-3acd-da71" name="New CategoryLink" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
@@ -544,9 +546,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="a0a0-5061-980e-df19" name="Duelist (-1)" hidden="false" targetId="2f0f-8408-46e3-c629" type="rule"/>
-        <infoLink id="e064-bde9-ef10-07c1" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
         <infoLink id="128a-3f6d-53f5-2772" name="Shift" hidden="false" targetId="ad14-9824-f7f5-9878" type="rule"/>
-        <infoLink id="7156-d166-3042-9d46" name="Command (Shinobi)" hidden="false" targetId="8157-d69e-19d9-af49" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e85f-bb89-295c-3fa6" name="New CategoryLink" hidden="false" targetId="72e5-3998-27b5-2257" primary="true"/>
