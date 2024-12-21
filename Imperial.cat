@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eb2f-03a2-2b44-42a6" name="Imperial" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eb2f-03a2-2b44-42a6" name="Imperial" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="961f-5ee0-32eb-5b85" name="Blood Berets Leader" hidden="false" collective="false" import="true" targetId="4e1d-8a09-0ea6-423b" type="selectionEntry"/>
     <entryLink id="d443-73d4-15fe-86c6" name="Blood Berets Medic Specialist" hidden="false" collective="false" import="true" targetId="94e9-148a-4d3e-f034" type="selectionEntry"/>
@@ -22,7 +22,7 @@
     <entryLink id="385e-072b-dbbf-b3a7" name="Trenchers Support" hidden="false" collective="false" import="true" targetId="7e78-f156-5f55-b0f4" type="selectionEntry"/>
     <entryLink id="9670-929d-bfcd-61e9" name="Trenchers Trooper" hidden="false" collective="false" import="true" targetId="38ea-c2d4-614a-a040" type="selectionEntry"/>
     <entryLink id="7637-36be-0077-e7da" name="Agent Trooper" hidden="false" collective="false" import="true" targetId="a210-db16-5a37-433d" type="selectionEntry"/>
-    <entryLink id="d0a6-9b0d-64a3-8cae" name="Mortificators Leader" hidden="false" collective="false" import="true" targetId="52de-08bc-a951-d007" type="selectionEntry"/>
+    <entryLink id="d0a6-9b0d-64a3-8cae" name="Redemptor Assassin" hidden="false" collective="false" import="true" targetId="7f8b-f692-dd93-f2ee" type="selectionEntry"/>
     <entryLink id="7920-a30a-80ac-7f35" name="Mortificators Trooper" hidden="false" collective="false" import="true" targetId="0484-1d7f-a752-fea3" type="selectionEntry"/>
     <entryLink id="a006-e3b4-2fb3-fa21" name="Necromutants Trooper" hidden="false" collective="false" import="true" targetId="b528-48b1-8692-9cbd" type="selectionEntry"/>
     <entryLink id="644d-f234-50ab-bd2d" name="Undead Legionnaires Trooper" hidden="false" collective="false" import="true" targetId="c26d-d114-0481-8797" type="selectionEntry"/>
@@ -214,8 +214,9 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7295-c4f0-9f1b-5426" name="Driven" hidden="false" targetId="cd6c-f3c4-d70d-beb4" type="rule"/>
+        <infoLink id="7295-c4f0-9f1b-5426" name="Shake It Off" hidden="false" targetId="7e4c-0b6e-af0d-b6ee" type="rule"/>
         <infoLink id="3d45-c55f-ce69-79cc" name="Camouflage (1)" hidden="false" targetId="f905-353e-70fd-5044" type="rule"/>
+        <infoLink id="d251-a58a-66bf-5245" name="Rebreather (3)" hidden="false" targetId="4449-93be-41ab-5df3" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2383-bccd-8deb-31af" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
@@ -273,8 +274,10 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6496-e7c1-7de4-7c5a" name="Driven" hidden="false" targetId="cd6c-f3c4-d70d-beb4" type="rule"/>
         <infoLink id="3dfc-f434-954a-7d74" name="Camouflage (1)" hidden="false" targetId="f905-353e-70fd-5044" type="rule"/>
+        <infoLink id="7a71-ebb3-0f46-a245" name="Rebreather (3)" hidden="false" targetId="4449-93be-41ab-5df3" type="rule"/>
+        <infoLink id="8250-918e-ef3d-d269" name="Shake It Off" hidden="false" targetId="7e4c-0b6e-af0d-b6ee" type="rule"/>
+        <infoLink id="8f81-a79b-fe4e-f2e2" name="Command (Blood Berets)" hidden="false" targetId="a7fe-464d-cf0b-47d8" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="47c6-85d8-cc40-ded8" name="New CategoryLink" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
@@ -326,9 +329,10 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="41c6-9a98-fc8d-8a84" name="Driven" hidden="false" targetId="cd6c-f3c4-d70d-beb4" type="rule"/>
+        <infoLink id="41c6-9a98-fc8d-8a84" name="Rebreather (3)" hidden="false" targetId="4449-93be-41ab-5df3" type="rule"/>
         <infoLink id="8e4b-1f9c-7636-e291" name="Camouflage (1)" hidden="false" targetId="f905-353e-70fd-5044" type="rule"/>
         <infoLink id="525e-0d90-eb1c-c495" name="First Aid (11)" hidden="false" targetId="9bc8-cc39-5e31-1af9" type="rule"/>
+        <infoLink id="8937-c78a-6f92-c770" name="Shake It Off" hidden="false" targetId="7e4c-0b6e-af0d-b6ee" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4628-fd29-f485-bba3" name="New CategoryLink" hidden="false" targetId="55c5-1db9-4a97-8ddd" primary="true"/>
@@ -378,8 +382,9 @@
       <infoLinks>
         <infoLink id="be43-683c-e1c6-4caf" name="Command (Blood Berets)" hidden="false" targetId="a7fe-464d-cf0b-47d8" type="rule"/>
         <infoLink id="9380-53d4-2a11-dd64" name="Camouflage (1)" hidden="false" targetId="f905-353e-70fd-5044" type="rule"/>
-        <infoLink id="c3cc-cc97-09a7-cbd1" name="Driven" hidden="false" targetId="cd6c-f3c4-d70d-beb4" type="rule"/>
+        <infoLink id="c3cc-cc97-09a7-cbd1" name="Rebreather (3)" hidden="false" targetId="4449-93be-41ab-5df3" type="rule"/>
         <infoLink id="4cc2-10ac-639a-5ea3" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+        <infoLink id="41c8-67fe-f134-8d3e" name="Shake It Off" hidden="false" targetId="7e4c-0b6e-af0d-b6ee" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a684-b85f-8d54-2799" name="New CategoryLink" hidden="false" targetId="72e5-3998-27b5-2257" primary="true"/>
@@ -422,6 +427,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="2a73-c1ac-666a-123a" name="Focused Fire" hidden="false" targetId="904c-6569-805d-b263" type="rule"/>
+        <infoLink id="09e5-24bf-c4b6-0952" name="Rebreather (3)" hidden="false" targetId="4449-93be-41ab-5df3" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c66f-0c47-8866-9a54" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
@@ -476,6 +482,7 @@
         <infoLink id="4afa-9bad-98b9-260d" name="Command (Golden Lions)" hidden="false" targetId="a84e-34fe-8542-166d" type="rule"/>
         <infoLink id="2820-b0eb-fae3-cabd" name="Focused Fire" hidden="false" targetId="904c-6569-805d-b263" type="rule"/>
         <infoLink id="e915-6a7f-62dc-3200" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+        <infoLink id="ff76-ec9b-cdf6-cf1c" name="Rebreather (3)" hidden="false" targetId="4449-93be-41ab-5df3" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b616-2a6b-45e1-3ddf" name="New CategoryLink" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
@@ -529,6 +536,7 @@
       <infoLinks>
         <infoLink id="326b-7be6-0e81-6d4c" name="Focused Fire" hidden="false" targetId="904c-6569-805d-b263" type="rule"/>
         <infoLink id="fd70-401f-9dd3-492a" name="Tactical" hidden="false" targetId="bb24-5e32-1ea5-89d0" type="rule"/>
+        <infoLink id="a876-a7d4-aa02-d075" name="Rebreather (3)" hidden="false" targetId="4449-93be-41ab-5df3" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1709-ef5c-a8ff-8123" name="New CategoryLink" hidden="false" targetId="55c5-1db9-4a97-8ddd" primary="true"/>
@@ -583,6 +591,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="a40d-3fc5-f999-7b35" name="Focused Fire" hidden="false" targetId="904c-6569-805d-b263" type="rule"/>
+        <infoLink id="4118-3e25-9492-3a94" name="Rebreather (3)" hidden="false" targetId="4449-93be-41ab-5df3" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5f06-8b37-64ce-ed69" name="New CategoryLink" hidden="false" targetId="72e5-3998-27b5-2257" primary="true"/>
@@ -627,7 +636,7 @@
         <infoLink id="8985-ba48-d02c-fbf0" name="Recruit" hidden="false" targetId="d494-f125-9c0c-ffcb" type="rule"/>
         <infoLink id="ce21-6e19-0a07-5e43" name="Entrenched" hidden="false" targetId="b987-f45c-e5c2-6819" type="rule"/>
         <infoLink id="7b8b-cd96-b36a-8b13" name="Group (2)" hidden="false" targetId="352d-8896-aa7f-b53d" type="rule"/>
-        <infoLink id="bce9-2d6d-e03f-6525" name="Rebreather (0)" hidden="false" targetId="cfeb-6e85-e551-be4e" type="rule"/>
+        <infoLink id="bce9-2d6d-e03f-6525" name="Rebreather (2)" hidden="false" targetId="ef9e-eb62-e91f-a025" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2805-f004-7290-8516" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
@@ -688,7 +697,7 @@
         <infoLink id="4fe7-c752-6562-3d4c" name="Recruit" hidden="false" targetId="d494-f125-9c0c-ffcb" type="rule"/>
         <infoLink id="1cb4-9d75-78fd-6c83" name="Entrenched" hidden="false" targetId="b987-f45c-e5c2-6819" type="rule"/>
         <infoLink id="cebe-6d67-f67f-1aba" name="Group (2)" hidden="false" targetId="352d-8896-aa7f-b53d" type="rule"/>
-        <infoLink id="4473-cb7c-63fd-8ab3" name="Rebreather (0)" hidden="false" targetId="cfeb-6e85-e551-be4e" type="rule"/>
+        <infoLink id="4473-cb7c-63fd-8ab3" name="Rebreather (2)" hidden="false" targetId="ef9e-eb62-e91f-a025" type="rule"/>
         <infoLink id="1faa-49df-7d07-f4f9" name="Command (Trenchers)" hidden="false" targetId="46f9-b187-162b-7699" type="rule"/>
         <infoLink id="c23f-939a-af0f-df41" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
       </infoLinks>
@@ -741,7 +750,7 @@
         <infoLink id="bd24-4280-20ea-5792" name="Recruit" hidden="false" targetId="d494-f125-9c0c-ffcb" type="rule"/>
         <infoLink id="7c3c-e0a6-5863-ea1c" name="Entrenched" hidden="false" targetId="b987-f45c-e5c2-6819" type="rule"/>
         <infoLink id="ca69-fbc8-c32a-ae26" name="Group (2)" hidden="false" targetId="352d-8896-aa7f-b53d" type="rule"/>
-        <infoLink id="231a-c6da-49a9-1939" name="Rebreather (0)" hidden="false" targetId="cfeb-6e85-e551-be4e" type="rule"/>
+        <infoLink id="231a-c6da-49a9-1939" name="Rebreather (2)" hidden="false" targetId="ef9e-eb62-e91f-a025" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b084-a67c-7206-11fb" name="New CategoryLink" hidden="false" targetId="72e5-3998-27b5-2257" primary="true"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4668-e411-f37b-a531" name="Bauhaus" revision="3" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4668-e411-f37b-a531" name="Bauhaus" revision="4" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Copyright Res Nova LLC, Heroic Signatures, 2024</readme>
   <entryLinks>
     <entryLink id="0768-35b1-302d-7ac3" name="Venusian Ranger Trooper" hidden="false" collective="false" import="true" targetId="693c-c756-d911-84db" type="selectionEntry"/>
@@ -23,7 +23,7 @@
     <entryLink id="da87-abc3-8f72-9232" name="Intel Misdirection" hidden="false" collective="false" import="true" targetId="a9a5-49c1-4705-dc70" type="selectionEntry"/>
     <entryLink id="8383-8cd0-22c8-51a3" name="Mission Critical" hidden="false" collective="false" import="true" targetId="de7b-84b3-7899-f7f2" type="selectionEntry"/>
     <entryLink id="3ddc-a2ba-15f0-a262" name="Agent Trooper" hidden="false" collective="false" import="true" targetId="a210-db16-5a37-433d" type="selectionEntry"/>
-    <entryLink id="9d6e-6b50-c682-2ea2" name="Mortificators Leader" hidden="false" collective="false" import="true" targetId="52de-08bc-a951-d007" type="selectionEntry"/>
+    <entryLink id="9d6e-6b50-c682-2ea2" name="Redemptor Assassin" hidden="false" collective="false" import="true" targetId="7f8b-f692-dd93-f2ee" type="selectionEntry"/>
     <entryLink id="afdc-2a22-bab8-1e19" name="Mortificators Trooper" hidden="false" collective="false" import="true" targetId="0484-1d7f-a752-fea3" type="selectionEntry"/>
     <entryLink id="f6dd-09ab-74fd-a9a5" name="Undead Legionnaires Trooper" hidden="false" collective="false" import="true" targetId="c26d-d114-0481-8797" type="selectionEntry"/>
     <entryLink id="aba6-9f1a-6f9b-9882" name="Necromutants Trooper" hidden="false" collective="false" import="true" targetId="b528-48b1-8692-9cbd" type="selectionEntry"/>
@@ -49,6 +49,7 @@
       <infoLinks>
         <infoLink id="6f7d-fe17-ba55-b9dc" name="Determination" hidden="false" targetId="89c6-0beb-4967-9757" type="rule"/>
         <infoLink id="1be2-c795-4154-9178" name="Camouflage (1)" hidden="false" targetId="f905-353e-70fd-5044" type="rule"/>
+        <infoLink id="3fa1-5c27-96c2-cf64" name="Precise Senses" hidden="false" targetId="78f7-715f-f369-37be" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c7c6-1183-f1ed-775e" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
@@ -92,6 +93,7 @@
       <infoLinks>
         <infoLink id="2bd7-2730-68a1-4367" name="Determination" hidden="false" targetId="89c6-0beb-4967-9757" type="rule"/>
         <infoLink id="6033-a411-f6de-5968" name="Camouflage (1)" hidden="false" targetId="f905-353e-70fd-5044" type="rule"/>
+        <infoLink id="0298-9059-11eb-391c" name="Precise Senses" hidden="false" targetId="78f7-715f-f369-37be" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0c9b-19af-b60a-bc22" name="Support" hidden="false" targetId="72e5-3998-27b5-2257" primary="true"/>
@@ -147,6 +149,7 @@
         <infoLink id="a06e-1f5e-c11d-eb71" name="Camouflage (1)" hidden="false" targetId="f905-353e-70fd-5044" type="rule"/>
         <infoLink id="9b51-1b23-1e80-9266" name="Command (Venusian Rangers)" hidden="false" targetId="dc57-80fa-b920-c656" type="rule"/>
         <infoLink id="53a6-0992-c28d-fa07" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+        <infoLink id="9aed-5902-027a-4885" name="Precise Senses" hidden="false" targetId="78f7-715f-f369-37be" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c56d-73d9-0212-a646" name="Leader" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
@@ -201,6 +204,7 @@
         <infoLink id="1045-30cf-f40d-760c" name="Determination" hidden="false" targetId="89c6-0beb-4967-9757" type="rule"/>
         <infoLink id="b64f-5587-61a0-a1ca" name="Camouflage (1)" hidden="false" targetId="f905-353e-70fd-5044" type="rule"/>
         <infoLink id="727f-ad7e-4a57-6709" name="First Aid (12)" hidden="false" targetId="e555-cabf-1f94-04b1" type="rule"/>
+        <infoLink id="afcb-df3d-cf49-4451" name="Precise Senses" hidden="false" targetId="78f7-715f-f369-37be" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5ff6-3359-bfc4-a5e6" name="Specialist" hidden="false" targetId="55c5-1db9-4a97-8ddd" primary="true"/>

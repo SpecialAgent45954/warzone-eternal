@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b455-2fd9-c072-56c6" name="Capitol" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b455-2fd9-c072-56c6" name="Capitol" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="d483-db35-b7e6-87c4" name="Free Marines Leader" hidden="false" collective="false" import="true" targetId="9fc5-a5af-38b3-fd5b" type="selectionEntry"/>
     <entryLink id="0c10-d255-5f31-738d" name="Air Strike" hidden="false" collective="false" import="true" targetId="af2c-ba64-e3b0-a9d7" type="selectionEntry"/>
@@ -22,7 +22,7 @@
     <entryLink id="9305-fc06-56a1-7673" name="Intel Misdirection" hidden="false" collective="false" import="true" targetId="a9a5-49c1-4705-dc70" type="selectionEntry"/>
     <entryLink id="fd03-790c-ee14-6641" name="Mission Critical" hidden="false" collective="false" import="true" targetId="de7b-84b3-7899-f7f2" type="selectionEntry"/>
     <entryLink id="d203-f7b5-f633-5273" name="Agent Trooper" hidden="false" collective="false" import="true" targetId="a210-db16-5a37-433d" type="selectionEntry"/>
-    <entryLink id="f38b-493e-cd38-008d" name="Mortificators Leader" hidden="false" collective="false" import="true" targetId="52de-08bc-a951-d007" type="selectionEntry"/>
+    <entryLink id="f38b-493e-cd38-008d" name="Redemptor Assassin" hidden="false" collective="false" import="true" targetId="7f8b-f692-dd93-f2ee" type="selectionEntry"/>
     <entryLink id="867c-ef14-51bf-738e" name="Mortificators Trooper" hidden="false" collective="false" import="true" targetId="0484-1d7f-a752-fea3" type="selectionEntry"/>
     <entryLink id="2762-ed64-9ef2-5ba7" name="Necromutants Trooper" hidden="false" collective="false" import="true" targetId="b528-48b1-8692-9cbd" type="selectionEntry"/>
     <entryLink id="fb55-5d40-c50e-a27e" name="Undead Legionnaires Trooper" hidden="false" collective="false" import="true" targetId="c26d-d114-0481-8797" type="selectionEntry"/>

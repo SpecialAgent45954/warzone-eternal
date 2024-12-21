@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ec98-e3ba-032d-facf" name="Brotherhood" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ec98-e3ba-032d-facf" name="Brotherhood" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="5dcc-1c1e-a759-2c16" name="Devotion and Zeal" hidden="false" collective="false" import="true" targetId="df01-c239-c3c3-5d1c" type="selectionEntry"/>
     <entryLink id="7855-50a3-013e-de54" name="F-214 Flamer" hidden="false" collective="false" import="true" targetId="2c36-0fbf-dd4c-3604" type="selectionEntry"/>
@@ -17,6 +17,7 @@
     <entryLink id="2ba3-1857-e8bd-ab2b" name="Hyperactivator" hidden="false" collective="false" import="true" targetId="5fcb-2261-e905-c5b7" type="selectionEntry"/>
     <entryLink id="24c3-c6af-a9d4-7635" name="Intel Misdirection" hidden="false" collective="false" import="true" targetId="a9a5-49c1-4705-dc70" type="selectionEntry"/>
     <entryLink id="7b7f-1988-7677-cd77" name="Agent Trooper" hidden="false" collective="false" import="true" targetId="a210-db16-5a37-433d" type="selectionEntry"/>
+    <entryLink id="06f0-47a3-025d-19e0" name="Redemption Assassin Trooper" hidden="false" collective="false" import="true" targetId="65d4-58e1-f619-802d" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="2c36-0fbf-dd4c-3604" name="F-214 Flamer" hidden="false" collective="false" import="true" type="upgrade">
@@ -179,7 +180,6 @@
         <infoLink id="a672-9567-a678-6645" name="Dodge" hidden="false" targetId="8009-b5b1-d147-7185" type="rule"/>
         <infoLink id="0fd8-af48-fed9-a42d" name="Camouflage (2)" hidden="false" targetId="561a-f910-7ec1-6df9" type="rule"/>
         <infoLink id="81a0-49a9-4af4-a391" name="Executioner (2)" hidden="false" targetId="3b1c-1521-170c-c82b" type="rule"/>
-        <infoLink id="16ca-0941-5412-a61c" name="Faith (1)" hidden="false" targetId="b9a0-8d66-f642-c3c0" type="rule"/>
         <infoLink id="4803-76e5-4b83-e980" name="First Strike" hidden="false" targetId="bda4-e6c1-7a53-e93c" type="rule"/>
         <infoLink id="008b-bdb9-3499-750e" name="Gymnastic" hidden="false" targetId="0d9b-fc88-e21b-08be" type="rule"/>
         <infoLink id="53ea-ca6e-c867-789d" name="Shadowed" hidden="false" targetId="00e2-7f09-ac89-a48f" type="rule"/>
@@ -243,7 +243,6 @@
         <infoLink id="aeac-172f-998c-9135" name="Dodge" hidden="false" targetId="8009-b5b1-d147-7185" type="rule"/>
         <infoLink id="f954-9690-afdf-ea6f" name="Camouflage (2)" hidden="false" targetId="561a-f910-7ec1-6df9" type="rule"/>
         <infoLink id="de55-ebc0-8884-5f95" name="Executioner (2)" hidden="false" targetId="3b1c-1521-170c-c82b" type="rule"/>
-        <infoLink id="e38f-9a74-dfa2-9220" name="Faith (1)" hidden="false" targetId="b9a0-8d66-f642-c3c0" type="rule"/>
         <infoLink id="518f-3158-cab7-840b" name="First Strike" hidden="false" targetId="bda4-e6c1-7a53-e93c" type="rule"/>
         <infoLink id="18aa-c2b6-71b2-f521" name="Gymnastic" hidden="false" targetId="0d9b-fc88-e21b-08be" type="rule"/>
         <infoLink id="57b0-b50c-7e13-ce3b" name="Shadowed" hidden="false" targetId="00e2-7f09-ac89-a48f" type="rule"/>
@@ -254,7 +253,7 @@
         <categoryLink id="8453-14f3-a7e8-e831" name="New CategoryLink" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="2fc7-d583-4402-cd58" name="Avalanche Handgun" hidden="false" collective="false" import="true" targetId="d1b8-b46e-beb4-4b79" type="selectionEntry">
+        <entryLink id="2fc7-d583-4402-cd58" name="Silenced Nemesis Handgun" hidden="false" collective="false" import="true" targetId="5e0d-1c4f-a807-1c13" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e5b-b041-7547-8131" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3dc-9874-d428-c597" type="max"/>
@@ -475,6 +474,65 @@
       <costs>
         <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="6.0"/>
         <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="65d4-58e1-f619-802d" name="Redemption Assassin Trooper" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1db-72e6-63f5-ec59" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ad3d-3d26-63b3-a6e6" name="Redemptor Assassin" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">6</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">15</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">17</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-2</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">20</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">13</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">15</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0b97-3e27-b6ef-4c8b" name="Camouflage (2)" hidden="false" targetId="561a-f910-7ec1-6df9" type="rule"/>
+        <infoLink id="4e8d-4673-c5a1-6ac6" name="Dodge" hidden="false" targetId="8009-b5b1-d147-7185" type="rule"/>
+        <infoLink id="a4c3-3333-aa1c-833d" name="Executioner (2)" hidden="false" targetId="3b1c-1521-170c-c82b" type="rule"/>
+        <infoLink id="2d6a-aed7-b8a9-fe4a" name="Fearless" hidden="false" targetId="fef3-09ba-bc39-b724" type="rule"/>
+        <infoLink id="e588-8d2a-dee6-566d" name="First Strike" hidden="false" targetId="bda4-e6c1-7a53-e93c" type="rule"/>
+        <infoLink id="25dc-e65f-6981-cf4e" name="Gymnastic" hidden="false" targetId="0d9b-fc88-e21b-08be" type="rule"/>
+        <infoLink id="a088-109a-341f-9693" name="Shadowed" hidden="false" targetId="00e2-7f09-ac89-a48f" type="rule"/>
+        <infoLink id="0e47-263f-39d9-3a9b" name="Advanced Deploy" hidden="false" targetId="7b56-8e1f-6d98-637a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6a91-e8a5-9fe8-a0d4" name="New CategoryLink" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
+        <categoryLink id="cdd4-625b-9360-df2d" name="Unique" hidden="false" targetId="06ea-dacd-a898-fd1b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5afb-84c9-1855-be6f" name="Mortis Blade" hidden="false" collective="false" import="true" targetId="400e-84f1-d109-35cd" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63ee-5b35-7e4f-b859" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d08e-2cd8-27be-85b2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6804-c443-dc6c-8ddd" name="Avalanche Handgun" hidden="false" collective="false" import="true" targetId="cba0-63f6-0eab-61d3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b018-e72d-2982-6255" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1a2-6930-62b3-7f92" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9311-b295-2d26-0139" name="Smoke Grenades" hidden="false" collective="false" import="true" targetId="a21f-e75a-b897-afc0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6a6-11de-5058-cfcc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2f9-e486-d992-ffec" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="7.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

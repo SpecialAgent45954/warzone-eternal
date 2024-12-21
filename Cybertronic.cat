@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8b62-aebe-24ff-6f65" name="Cybertronic" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8b62-aebe-24ff-6f65" name="Cybertronic" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="1199-e5cb-93c2-b53d" name="Arcane Immunity" hidden="false" collective="false" import="true" targetId="61cf-eb85-2aea-bcf5" type="selectionEntry"/>
     <entryLink id="40ca-14a9-4a90-c2f5" name="Attilla Mk III Cuirassier Support (FL)" hidden="false" collective="false" import="true" targetId="6ac4-30f4-6abb-13dd" type="selectionEntry"/>
@@ -19,7 +19,7 @@
     <entryLink id="9537-2981-93f8-a5de" name="Network Hub" hidden="false" collective="false" import="true" targetId="0dee-70f8-dd8e-8a67" type="selectionEntry"/>
     <entryLink id="69b1-e564-a78a-319e" name="Subreal Link" hidden="false" collective="false" import="true" targetId="4591-d43e-50b1-a2d4" type="selectionEntry"/>
     <entryLink id="6aa0-681b-8958-1382" name="Agent Trooper" hidden="false" collective="false" import="true" targetId="a210-db16-5a37-433d" type="selectionEntry"/>
-    <entryLink id="fd0a-5818-9c9d-2065" name="Mortificators Leader" hidden="false" collective="false" import="true" targetId="52de-08bc-a951-d007" type="selectionEntry"/>
+    <entryLink id="fd0a-5818-9c9d-2065" name="Redemptor Assassin" hidden="false" collective="false" import="true" targetId="7f8b-f692-dd93-f2ee" type="selectionEntry"/>
     <entryLink id="e9ed-a661-b7b5-70c7" name="Mortificators Trooper" hidden="false" collective="false" import="true" targetId="0484-1d7f-a752-fea3" type="selectionEntry"/>
     <entryLink id="21d6-8330-7d65-9507" name="Necromutants Trooper" hidden="false" collective="false" import="true" targetId="b528-48b1-8692-9cbd" type="selectionEntry"/>
     <entryLink id="9bfd-0f74-486b-987f" name="Undead Legionnaires Trooper" hidden="false" collective="false" import="true" targetId="c26d-d114-0481-8797" type="selectionEntry"/>

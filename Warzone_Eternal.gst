@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="2" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="3" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Copyright Res Nova LLC, Heroic Signatures, 2024</readme>
   <costTypes>
     <costType id="e87f-c529-f945-edc6" name=" Deployment Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -489,94 +489,6 @@
         <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="52de-08bc-a951-d007" name="Mortificators Leader" hidden="false" collective="false" import="true" type="model">
-      <modifiers>
-        <modifier type="set" field="3526-ca34-d789-2052" value="0.0">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b528-48b1-8692-9cbd" type="greaterThan"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c26d-d114-0481-8797" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b528-48b1-8692-9cbd" type="greaterThan"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c26d-d114-0481-8797" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="increment" field="3526-ca34-d789-2052" value="1.0">
-          <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0484-1d7f-a752-fea3" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3526-ca34-d789-2052" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="40fa-bceb-ba85-bc51" name="Mortificators Leader" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
-          <characteristics>
-            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">6</characteristic>
-            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">15</characteristic>
-            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">17</characteristic>
-            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
-            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-2</characteristic>
-            <characteristic name="AR" typeId="0367-47fc-0740-8c36">20</characteristic>
-            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
-            <characteristic name="PW" typeId="219f-f922-bd64-d979">13</characteristic>
-            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">15</characteristic>
-            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="bd08-9b99-d643-5b99" name="Dodge" hidden="false" targetId="8009-b5b1-d147-7185" type="rule"/>
-        <infoLink id="d11e-7dac-cb68-3940" name="Camouflage (2)" hidden="false" targetId="561a-f910-7ec1-6df9" type="rule"/>
-        <infoLink id="2ba7-2bb4-a865-05d1" name="Executioner (2)" hidden="false" targetId="3b1c-1521-170c-c82b" type="rule"/>
-        <infoLink id="37be-696c-c600-7e35" name="Faith (1)" hidden="false" targetId="b9a0-8d66-f642-c3c0" type="rule"/>
-        <infoLink id="1b48-e130-849c-c0c2" name="First Strike" hidden="false" targetId="bda4-e6c1-7a53-e93c" type="rule"/>
-        <infoLink id="37a8-a9a8-e3d9-7f6f" name="Gymnastic" hidden="false" targetId="0d9b-fc88-e21b-08be" type="rule"/>
-        <infoLink id="63b7-5bab-9e82-f434" name="Shadowed" hidden="false" targetId="00e2-7f09-ac89-a48f" type="rule"/>
-        <infoLink id="355f-8681-26b4-b362" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
-        <infoLink id="a129-5252-09bd-d156" name="Command (Mortificators)" hidden="false" targetId="7eba-6268-ddb6-5c9e" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="68e0-9275-69f2-7169" name="Seconding" hidden="false" targetId="9178-3208-0c82-87ed" primary="true"/>
-        <categoryLink id="ece9-c30b-42c9-4a6f" name="New CategoryLink" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="false"/>
-        <categoryLink id="c96c-c358-15f6-5cf1" name="Allies" hidden="false" targetId="894b-7020-18b0-d9f3" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="7b78-2707-f508-20b3" name="Mortis Blade" hidden="false" collective="false" import="true" targetId="400e-84f1-d109-35cd" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f5b-efd2-7260-3690" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f6d-81ff-638c-2ea6" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="a347-f0bd-088c-c1a8" name="Smoke Grenades" hidden="false" collective="false" import="true" targetId="a21f-e75a-b897-afc0" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="549e-d4aa-3f58-69c3" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13e4-d149-5cfb-9633" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="56c8-f178-4a53-6bd8" name="Avalanche Handgun" hidden="false" collective="false" import="true" targetId="cba0-63f6-0eab-61d3" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="254d-4aaf-e70d-bd0a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cd3-0cd9-c01d-158a" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="7.0"/>
-        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-2.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="cba0-63f6-0eab-61d3" name="Avalanche Handgun" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2643-392e-4d01-ecbb" name="Avalanche Handgun" hidden="false" targetId="d959-47db-6a89-923b" type="profile"/>
@@ -644,7 +556,6 @@
         <infoLink id="9047-1b3d-adf6-6521" name="Dodge" hidden="false" targetId="8009-b5b1-d147-7185" type="rule"/>
         <infoLink id="7dfd-0409-9cfa-1230" name="Camouflage (2)" hidden="false" targetId="561a-f910-7ec1-6df9" type="rule"/>
         <infoLink id="be15-a602-898f-d897" name="Executioner (2)" hidden="false" targetId="3b1c-1521-170c-c82b" type="rule"/>
-        <infoLink id="2d0e-afa0-9bf7-d881" name="Faith (1)" hidden="false" targetId="b9a0-8d66-f642-c3c0" type="rule"/>
         <infoLink id="bccd-27d1-a109-3903" name="First Strike" hidden="false" targetId="bda4-e6c1-7a53-e93c" type="rule"/>
         <infoLink id="9628-1d3d-2b36-cbae" name="Gymnastic" hidden="false" targetId="0d9b-fc88-e21b-08be" type="rule"/>
         <infoLink id="6481-0849-00b5-0386" name="Shadowed" hidden="false" targetId="00e2-7f09-ac89-a48f" type="rule"/>
@@ -810,7 +721,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="52de-08bc-a951-d007" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7f8b-f692-dd93-f2ee" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0484-1d7f-a752-fea3" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a210-db16-5a37-433d" type="greaterThan"/>
               </conditions>
@@ -821,7 +732,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="52de-08bc-a951-d007" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7f8b-f692-dd93-f2ee" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0484-1d7f-a752-fea3" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a210-db16-5a37-433d" type="greaterThan"/>
               </conditions>
@@ -883,7 +794,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="52de-08bc-a951-d007" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7f8b-f692-dd93-f2ee" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0484-1d7f-a752-fea3" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a210-db16-5a37-433d" type="greaterThan"/>
               </conditions>
@@ -894,7 +805,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="52de-08bc-a951-d007" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7f8b-f692-dd93-f2ee" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0484-1d7f-a752-fea3" type="greaterThan"/>
                 <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a210-db16-5a37-433d" type="greaterThan"/>
               </conditions>
@@ -946,6 +857,90 @@
       </entryLinks>
       <costs>
         <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f8b-f692-dd93-f2ee" name="Redemption Assassin Trooper" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b528-48b1-8692-9cbd" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c26d-d114-0481-8797" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="8256-94be-9d05-4460" value="0.0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b528-48b1-8692-9cbd" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c26d-d114-0481-8797" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8256-94be-9d05-4460" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd44-3efd-7f9b-9d47" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b365-64cd-2294-4bd3" name="Redemptor Assassin" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">6</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">15</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">17</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-2</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">20</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">13</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">15</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f3b7-6dd6-eaaf-eb0f" name="Camouflage (2)" hidden="false" targetId="561a-f910-7ec1-6df9" type="rule"/>
+        <infoLink id="affd-cd12-ac42-84ac" name="Dodge" hidden="false" targetId="8009-b5b1-d147-7185" type="rule"/>
+        <infoLink id="4f5c-b4c0-1dc1-e2be" name="Executioner (2)" hidden="false" targetId="3b1c-1521-170c-c82b" type="rule"/>
+        <infoLink id="e099-b836-3c35-b624" name="Fearless" hidden="false" targetId="fef3-09ba-bc39-b724" type="rule"/>
+        <infoLink id="63a7-f14e-1164-6fed" name="First Strike" hidden="false" targetId="bda4-e6c1-7a53-e93c" type="rule"/>
+        <infoLink id="66f3-af39-f3e4-f8a5" name="Gymnastic" hidden="false" targetId="0d9b-fc88-e21b-08be" type="rule"/>
+        <infoLink id="da4a-a03e-fe90-9613" name="Shadowed" hidden="false" targetId="00e2-7f09-ac89-a48f" type="rule"/>
+        <infoLink id="d5c3-5437-2a05-b4eb" name="Advanced Deploy" hidden="false" targetId="7b56-8e1f-6d98-637a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="86dd-7a6d-8b2f-f621" name="Allies" hidden="false" targetId="894b-7020-18b0-d9f3" primary="false"/>
+        <categoryLink id="3e71-7eaa-bf67-caab" name="New CategoryLink" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="false"/>
+        <categoryLink id="9674-76ef-98c1-1889" name="Unique" hidden="false" targetId="06ea-dacd-a898-fd1b" primary="false"/>
+        <categoryLink id="1598-8c1e-f652-59ab" name="New CategoryLink" hidden="false" targetId="9178-3208-0c82-87ed" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="be41-02cc-e85e-d0b6" name="Mortis Blade" hidden="false" collective="false" import="true" targetId="400e-84f1-d109-35cd" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15d6-0f0f-4456-0749" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fa7-ee96-5bfd-983f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f817-d65e-7a8f-e371" name="Avalanche Handgun" hidden="false" collective="false" import="true" targetId="cba0-63f6-0eab-61d3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed0f-2e99-5de5-a97f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c218-c544-3065-8732" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9faa-5b23-96b0-0906" name="Smoke Grenades" hidden="false" collective="false" import="true" targetId="a21f-e75a-b897-afc0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55a3-187e-f9b0-6b37" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56a6-ae2c-daec-e449" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="7.0"/>
         <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1048,7 +1043,9 @@
       <description>This Unit ignores the Camouflage Unit Special Ability when performing Shoot Action Tests.</description>
     </rule>
     <rule id="cfeb-6e85-e551-be4e" name="Rebreather (0)" hidden="false">
-      <description>When performing an Armor Test against a weapon with the Cloud (X) Weapon Special Ability, this Unit reduces to 0 the DAM Rating of that weapon.</description>
+      <description>When performing an Armor Test against a weapon with the Cloud (X) Weapon Special Ability, this Unit reduces to 0 the DAM Rating of that weapon.
+
+Note: this means every Cloud (X) Weapon Special Ability will be reduced to Cloud (0) for this Unit.</description>
     </rule>
     <rule id="d494-f125-9c0c-ffcb" name="Recruit" hidden="false">
       <description>This Unit must succeed at a TN(LD) Test to remove a Pinned Counter as part of a Rally Action.</description>
@@ -1241,6 +1238,19 @@ Note: This means a Unit with a Reach Weapon may perform a Charge Action targetin
     <rule id="4780-e00d-d46d-683d" name="Burst (4)" hidden="false">
       <description>Shoot Actions with this Weapon may perform up to 4 Shoot Action Tests assigned to any combination of Targets within a four inch diameter area.
 Note: When performing a Shoot Action with a Burst Weapon, all of the Shoot Action Tests are resolved before the effects of any Critical Failures are applied. A Critical Failure result on a Shoot Action Test does not prohibit the resolution of any remaining Shoot Action Tests performed as part of that Shoot Action.</description>
+    </rule>
+    <rule id="ef9e-eb62-e91f-a025" name="Rebreather (2)" hidden="false">
+      <description>When performing an Armor Test against a weapon with the Cloud (X) Weapon Special Ability, this Unit reduces to 2 the DAM Rating of that weapon.
+
+Note: this means every Cloud (3) or higher Weapon Special Ability will be reduced to Cloud (2) for this Unit. Lower values of Cloud (3) will not be affected by this Special Ability</description>
+    </rule>
+    <rule id="4449-93be-41ab-5df3" name="Rebreather (3)" hidden="false">
+      <description>When performing an Armor Test against a weapon with the Cloud (X) Weapon Special Ability, this Unit reduces to 3 the DAM Rating of that weapon.
+
+Note: this means every Cloud (4) or higher Weapon Special Ability will be reduced to Cloud (3) for this Unit. Lower values of Cloud (4) will not be affected by this Special Ability</description>
+    </rule>
+    <rule id="7b56-8e1f-6d98-637a" name="Advanced Deploy" hidden="false">
+      <description>In the Start Turn Phase of the first Turn, this Unit may be relocated to anywhere within 6”, including outside of this Force’s Deployment Area.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
