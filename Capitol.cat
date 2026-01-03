@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b455-2fd9-c072-56c6" name="Capitol" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b455-2fd9-c072-56c6" name="Capitol" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="d483-db35-b7e6-87c4" name="Free Marines Leader" hidden="false" collective="false" import="true" targetId="9fc5-a5af-38b3-fd5b" type="selectionEntry"/>
     <entryLink id="0c10-d255-5f31-738d" name="Air Strike" hidden="false" collective="false" import="true" targetId="af2c-ba64-e3b0-a9d7" type="selectionEntry"/>
@@ -68,7 +68,7 @@
       </constraints>
       <rules>
         <rule id="2123-3497-9f2a-f886" name="Helicopter Deployment" hidden="false">
-          <description>Designate a Unit. This Unit is not deployed during Game Setup. Instead, when Activated in the first Turn, it must perform a Move Action as its first Action to enter the Battlefield from an edge of the Battlefield other than Side A or Side B and not within the opposing Force’s Deployment Area. The distance of this movement is measured from the selected edge of the Battlefield.</description>
+          <description>Designate a Unit. This Unit is not deployed during Game Setup. Instead, when Activated in the first Turn, it must perform an eligible Movement Action (Move, Charge, or Fly) as its first Action to enter the Battlefield from an edge of the Battlefield other than Side A or Side B and not within the opposing Force’s Deployment Area. The distance of this movement is measured from the selected edge of the Battlefield.</description>
         </rule>
       </rules>
       <categoryLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="3" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="4" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Copyright Res Nova LLC, Heroic Signatures, 2024</readme>
   <costTypes>
     <costType id="e87f-c529-f945-edc6" name=" Deployment Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -1251,6 +1251,12 @@ Note: this means every Cloud (4) or higher Weapon Special Ability will be reduce
     </rule>
     <rule id="7b56-8e1f-6d98-637a" name="Advanced Deploy" hidden="false">
       <description>In the Start Turn Phase of the first Turn, this Unit may be relocated to anywhere within 6”, including outside of this Force’s Deployment Area.</description>
+    </rule>
+    <rule id="1ba9-a2ab-225a-b1c4" name="Gruesome (3)" hidden="false">
+      <description>When an Enemy Unit is removed as a Casualty due to a Shoot or Strike Action Test performed with this Weapon, all Enemy Units within 3 inches of the Casualty must Succeed at a TN (LD) Test or receive a Pinned Counter.</description>
+    </rule>
+    <rule id="c350-0150-c648-674c" name="First Aid (13)" hidden="false">
+      <description>Once during this Unit’s Activation, immediately before or after declaring or performing an Action, this Unit, if in base-to-base contact with a Friendly Unit with one or more Wound Counters, may attempt a TN(13) Test. Success removes a Wound Counter and a natural roll of a “1” removes all Wound Counters. Other Friendly Units within 6&quot; of this Unit are never assigned more than one Wound Counter as a result of a failed Armor Test.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

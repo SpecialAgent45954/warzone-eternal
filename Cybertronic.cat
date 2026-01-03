@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8b62-aebe-24ff-6f65" name="Cybertronic" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8b62-aebe-24ff-6f65" name="Cybertronic" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="1199-e5cb-93c2-b53d" name="Arcane Immunity" hidden="false" collective="false" import="true" targetId="61cf-eb85-2aea-bcf5" type="selectionEntry"/>
     <entryLink id="40ca-14a9-4a90-c2f5" name="Attilla Mk III Cuirassier Support (FL)" hidden="false" collective="false" import="true" targetId="6ac4-30f4-6abb-13dd" type="selectionEntry"/>
@@ -23,6 +23,8 @@
     <entryLink id="e9ed-a661-b7b5-70c7" name="Mortificators Trooper" hidden="false" collective="false" import="true" targetId="0484-1d7f-a752-fea3" type="selectionEntry"/>
     <entryLink id="21d6-8330-7d65-9507" name="Necromutants Trooper" hidden="false" collective="false" import="true" targetId="b528-48b1-8692-9cbd" type="selectionEntry"/>
     <entryLink id="9bfd-0f74-486b-987f" name="Undead Legionnaires Trooper" hidden="false" collective="false" import="true" targetId="c26d-d114-0481-8797" type="selectionEntry"/>
+    <entryLink id="ad4f-a14f-c81b-bfa9" name="Dr. Diana Leader" hidden="false" collective="false" import="true" targetId="b43c-0d40-4b19-a7c9" type="selectionEntry"/>
+    <entryLink id="fd37-91f3-a365-eef8" name="Dr. Diana Specialist" hidden="false" collective="false" import="true" targetId="bf18-df6b-fef4-dc02" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="61cf-eb85-2aea-bcf5" name="Arcane Immunity" hidden="false" collective="false" import="true" type="upgrade">
@@ -183,6 +185,11 @@
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b77a-8057-b75e-4d69" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
+        <modifier type="decrement" field="6501-6a09-198d-83fb" value="2.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b43c-0d40-4b19-a7c9" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6501-6a09-198d-83fb" type="max"/>
@@ -229,6 +236,11 @@
         <modifier type="increment" field="a0f4-1fad-8c16-a338" value="1.0">
           <repeats>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b77a-8057-b75e-4d69" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="a0f4-1fad-8c16-a338" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bf18-df6b-fef4-dc02" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -519,6 +531,115 @@
       <costs>
         <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="8.0"/>
         <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf18-df6b-fef4-dc02" name="Dr. Diana Specialist" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="ecd5-99a1-a0dc-d59e" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b77a-8057-b75e-4d69" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="ecd5-99a1-a0dc-d59e" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="097b-16b9-104b-461b" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecd5-99a1-a0dc-d59e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a21e-5599-be16-6428" name="Dr. Diana Specialist" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">6</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">12</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">11</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">22</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">11</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">13</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="262f-38f7-c63e-fcff" name="Awareness" hidden="false" targetId="49fd-f6db-33f6-c152" type="rule"/>
+        <infoLink id="6ab5-aee7-2033-55d7" name="First Aid (13)" hidden="false" targetId="c350-0150-c648-674c" type="rule"/>
+        <infoLink id="b170-2523-81bf-7cee" name="Networked" hidden="false" targetId="ac3c-752e-4f42-6318" type="rule"/>
+        <infoLink id="edb1-f9a9-3135-b9b9" name="Shake It Off" hidden="false" targetId="7e4c-0b6e-af0d-b6ee" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a07d-ff61-e813-3561" name="New CategoryLink" hidden="false" targetId="55c5-1db9-4a97-8ddd" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2079-efde-34f8-8152" name="P1000 Handgun" hidden="false" collective="false" import="true" targetId="8385-2e5b-87cb-06a4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="336f-f4ca-dfbf-cb2e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dd3-65b2-22a3-df27" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b43c-0d40-4b19-a7c9" name="Dr. Diana Leader" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="94dd-0d36-4a9b-bf3a" value="0.5">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b77a-8057-b75e-4d69" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="94dd-0d36-4a9b-bf3a" value="0.5">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3bac-9512-7781-050c" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94dd-0d36-4a9b-bf3a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="67e4-f927-b497-01e7" name="Dr. Diana Leader" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">6</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">12</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">11</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">22</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">11</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">13</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ee4f-566c-5cd6-e3f7" name="Networked" hidden="false" targetId="ac3c-752e-4f42-6318" type="rule"/>
+        <infoLink id="910d-f4d2-2320-4a9d" name="Awareness" hidden="false" targetId="49fd-f6db-33f6-c152" type="rule"/>
+        <infoLink id="f410-70b2-1c73-755a" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+        <infoLink id="e50c-91b1-bbd2-1090" name="First Aid (13)" hidden="false" targetId="c350-0150-c648-674c" type="rule"/>
+        <infoLink id="580d-2b12-05e3-9b0e" name="Shake It Off" hidden="false" targetId="7e4c-0b6e-af0d-b6ee" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9381-03b2-8c88-92d7" name="New CategoryLink" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="dce7-b086-d5c3-2a31" name="P1000 Handgun" hidden="false" collective="false" import="true" targetId="8385-2e5b-87cb-06a4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="441e-063e-7e9e-2609" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdde-050f-22c7-0df8" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="5.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5006-bdd5-ffcd-4aba" name="Dark Legion - Algeroth" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5006-bdd5-ffcd-4aba" name="Dark Legion - Algeroth" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="82b2-93f3-57e0-32f9" name="Undead Legionnaires Trooper" hidden="false" collective="false" import="true" targetId="8d3f-3029-2730-257c" type="selectionEntry"/>
     <entryLink id="5fa8-4989-f356-86df" name="Razides Support" hidden="false" collective="false" import="true" targetId="9750-1089-ff15-ff12" type="selectionEntry"/>
@@ -15,6 +15,7 @@
     <entryLink id="b87e-2969-ed3f-1da4" name="Carcass Suit" hidden="false" collective="false" import="true" targetId="969e-6aeb-5898-6278" type="selectionEntry"/>
     <entryLink id="37e0-a887-b82c-e071" name="Self Repair" hidden="false" collective="false" import="true" targetId="f2fd-fc1f-9343-23cc" type="selectionEntry"/>
     <entryLink id="ff8d-76b2-2586-67fa" name="Subdermal Implants" hidden="false" collective="false" import="true" targetId="5ab2-6e7a-f9be-ceca" type="selectionEntry"/>
+    <entryLink id="1692-b635-35d2-08ff" name="Immaculate Fury Support" hidden="false" collective="false" import="true" targetId="31a4-3824-cdb1-d6bc" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="dd04-6be9-efae-f135" name="Invoke Frenzy" hidden="false" collective="false" import="true" type="upgrade">
@@ -698,6 +699,74 @@
         <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-2.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="49a8-41cb-93d0-0159" name="Soulless Shriek" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2a58-7c64-534d-5995" name="Soulless Shriek" hidden="false" targetId="3c4a-7cfb-fba1-1fef" type="profile"/>
+        <infoLink id="8d13-1752-f662-74f1" name="Concussive" hidden="false" targetId="c9fb-772d-1465-efe8" type="rule"/>
+        <infoLink id="7595-5c09-60b5-df53" name="Projected" hidden="false" targetId="1830-9b13-7aa4-9922" type="rule"/>
+        <infoLink id="422e-7583-cbcd-c792" name="Symmetry" hidden="false" targetId="ef39-6be2-cc0b-ad62" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5451-e550-b24b-97bf" name="Soulshearer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8260-38c6-63a3-6d83" name="Soulshearer" hidden="false" targetId="2020-5da1-efc4-babe" type="profile"/>
+        <infoLink id="125b-93ee-bf6c-de1b" name="Gruesome (3)" hidden="false" targetId="1ba9-a2ab-225a-b1c4" type="rule"/>
+        <infoLink id="c9db-8c3a-8566-873e" name="Terrifying" hidden="false" targetId="4146-5c06-0bbb-5113" type="rule"/>
+        <infoLink id="f443-8b89-1da3-ea38" name="Vicious" hidden="false" targetId="8e6f-88bf-6ef2-e019" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="31a4-3824-cdb1-d6bc" name="Immaculate Fury Support" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="76c7-2d56-b5c6-afc1" name="Immaculate Fury Support" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">12</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">8</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">+1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">23</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">3</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">14</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">12</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">40mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="18a3-8bd4-ed61-26e3" name="Aggressive" hidden="false" targetId="e2ec-bc12-2843-ab77" type="rule"/>
+        <infoLink id="8042-1288-0956-0789" name="Fearless" hidden="false" targetId="fef3-09ba-bc39-b724" type="rule"/>
+        <infoLink id="6b6a-a2b2-ecb0-cbd8" name="Rebreather (0)" hidden="false" targetId="cfeb-6e85-e551-be4e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5c22-b59c-a7ca-804b" name="New CategoryLink" hidden="false" targetId="72e5-3998-27b5-2257" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9acd-2e5d-aa87-9490" name="Soulless Shriek" hidden="false" collective="false" import="true" targetId="49a8-41cb-93d0-0159" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ac4-c8ac-5bdf-c089" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="585a-80a2-e4e1-405f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="cb35-224b-57fc-c608" name="Soulshearer" hidden="false" collective="false" import="true" targetId="5451-e550-b24b-97bf" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43f2-c566-fc91-5b9b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a58-a702-1413-665c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="8.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="13ca-bf9d-0c0b-7a11" name="Blade/Bayonet" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
@@ -922,6 +991,34 @@
         <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">-</characteristic>
         <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
         <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Symmetry, Terrifying</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3c4a-7cfb-fba1-1fef" name="Soulless Shriek" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 8&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+2</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">10</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">-</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">-</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Concussive, Projected, Symmetry</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2020-5da1-efc4-babe" name="Soulshearer" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 12&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+0</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">5</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">12&quot;-36&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-2</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">5</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">19</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Gruesome (3), Terrifying, Vicious</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
