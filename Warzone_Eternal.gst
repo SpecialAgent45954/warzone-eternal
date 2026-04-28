@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="4" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="5" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Copyright Res Nova LLC, Heroic Signatures, 2024</readme>
   <costTypes>
     <costType id="e87f-c529-f945-edc6" name=" Deployment Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -1257,6 +1257,20 @@ Note: this means every Cloud (4) or higher Weapon Special Ability will be reduce
     </rule>
     <rule id="c350-0150-c648-674c" name="First Aid (13)" hidden="false">
       <description>Once during this Unit’s Activation, immediately before or after declaring or performing an Action, this Unit, if in base-to-base contact with a Friendly Unit with one or more Wound Counters, may attempt a TN(13) Test. Success removes a Wound Counter and a natural roll of a “1” removes all Wound Counters. Other Friendly Units within 6&quot; of this Unit are never assigned more than one Wound Counter as a result of a failed Armor Test.</description>
+    </rule>
+    <rule id="7915-d487-a073-3187" name="Rebreather (5)" hidden="false">
+      <description>When performing an Armor Test against a weapon with the Cloud (X) Weapon Special Ability, this Unit reduces to 5 the DAM Rating of that weapon.
+
+Note: this means every Cloud (6) or higher Weapon Special Ability will be reduced to Cloud (5) for this Unit. Lower values of Cloud (6) will not be affected by this Special Ability</description>
+    </rule>
+    <rule id="8cf2-dacf-dd44-e17f" name="Training (Determination, Necromutants)" hidden="false">
+      <description>This Unit adds the Determination Special Ability to all other Friendly Units of Necromutants Unit Type.</description>
+    </rule>
+    <rule id="053a-08d6-d08c-c20d" name="Command (Centurions, Necromutants)" hidden="false">
+      <description>Once per Turn, if this Unit is neither Engaged nor has a Pinned Counter, it may spend an Action to perform a TN (LD) Test. On a Success, a Friendly Unit of Unit Type Centurions or Necromutants within 12” and non-Blocked LOS may perform one Action when this Unit completes its Activation.</description>
+    </rule>
+    <rule id="8f4d-a369-8745-321e" name="Command (Samurai)" hidden="false">
+      <description>Once per Turn, if this Unit is neither Engaged nor has a Pinned Counter, it may spend an Action to perform a TN (LD) Test. On a Success, a Friendly Unit of Unit Type Samurai within 12” and non-Blocked LOS may perform one Action when this Unit completes its Activation.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

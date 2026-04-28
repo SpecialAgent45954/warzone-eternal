@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eaeb-df27-aa69-e0b2" name="Mishima" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eaeb-df27-aa69-e0b2" name="Mishima" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="2788-cba8-7128-6e26" name="Daimyo" hidden="false" collective="false" import="true" targetId="bc59-5991-6524-5457" type="selectionEntry"/>
     <entryLink id="3982-1c9a-b6ac-59c6" name="Hatamoto Leader" hidden="false" collective="false" import="true" targetId="0f76-4e7a-0b5d-a0e6" type="selectionEntry"/>
@@ -24,6 +24,10 @@
     <entryLink id="97ec-2323-4de0-1893" name="Mortificators Trooper" hidden="false" collective="false" import="true" targetId="0484-1d7f-a752-fea3" type="selectionEntry"/>
     <entryLink id="8768-5f36-9000-582d" name="Necromutants Trooper" hidden="false" collective="false" import="true" targetId="b528-48b1-8692-9cbd" type="selectionEntry"/>
     <entryLink id="1c85-9d57-312d-0bab" name="Undead Legionnaires Trooper" hidden="false" collective="false" import="true" targetId="c26d-d114-0481-8797" type="selectionEntry"/>
+    <entryLink id="fc4e-5b44-c93d-a5d7" name="Samurai Trooper" hidden="false" collective="false" import="true" targetId="4c4f-e7c5-fc24-d07b" type="selectionEntry"/>
+    <entryLink id="d499-bb62-f8b8-b25e" name="Samurai Leader" hidden="false" collective="false" import="true" targetId="e525-7957-0b26-d8d1" type="selectionEntry"/>
+    <entryLink id="4cd8-326e-5103-d0c1" name="Samurai Support" hidden="false" collective="false" import="true" targetId="2319-f0ae-a09a-af1b" type="selectionEntry"/>
+    <entryLink id="ce54-3864-d495-1bb2" name="Benjamin Sato" hidden="false" collective="false" import="true" targetId="3e4c-ded5-c098-2584" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="103b-1333-1b45-5861" name="Heirloom Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -623,6 +627,216 @@
         <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e581-4c60-128c-7aae" name="Sato Family Blade" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a35f-6a06-4bbd-07f0" name="Sato Family Blade" hidden="false" targetId="0c00-598a-33b9-d54d" type="profile"/>
+        <infoLink id="cefa-2716-9470-19ee" name="Reach (1)" hidden="false" targetId="2dab-4720-1bb4-2ca5" type="rule"/>
+        <infoLink id="c936-b5f8-f5d5-d355" name="Vicious" hidden="false" targetId="8e6f-88bf-6ef2-e019" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4c4f-e7c5-fc24-d07b" name="Samurai Trooper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c406-7766-f237-7c80" name="Samurai Trooper" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">10</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">12</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">5</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">0</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">11</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ece6-d486-b955-1d01" name="Group (2)" hidden="false" targetId="352d-8896-aa7f-b53d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="afa8-bf10-c564-3eed" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="912b-e47e-5a46-f73b" name="Ceremonial Blades" hidden="false" collective="false" import="true" targetId="fe9f-e1ac-4259-fdfa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="170f-bcbe-d05b-6761" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ff8-92ce-a5ec-7437" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9ad5-27d5-a1bc-9aae" name="Shogun Assault Rifle" hidden="false" collective="false" import="true" targetId="9f50-e2e0-d58c-257e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0f4-6164-2f30-ad95" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be2d-fb39-5f49-46d2" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="3.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2319-f0ae-a09a-af1b" name="Samurai Support" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e657-5a63-b188-d7f7" name="Samurai Support" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">10</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">12</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">5</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">0</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">11</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c237-b3e5-c315-b278" name="Group (2)" hidden="false" targetId="352d-8896-aa7f-b53d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="944a-2d9d-cbf8-7b94" name="New CategoryLink" hidden="false" targetId="72e5-3998-27b5-2257" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d9a9-6eb8-4d72-2876" name="Ceremonial Blades" hidden="false" collective="false" import="true" targetId="fe9f-e1ac-4259-fdfa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4999-eedb-a446-e59c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4874-fdfb-a482-7104" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3ae0-fb4b-d581-763c" name="Gehenna Puker" hidden="false" collective="false" import="true" targetId="1a52-130f-2140-58a5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a0f-e701-2286-f215" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b962-7f5c-8aa0-874d" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="3.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e525-7957-0b26-d8d1" name="Samurai Leader" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="f05a-82c5-7f07-e24d" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4c4f-e7c5-fc24-d07b" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="f05a-82c5-7f07-e24d" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3e4c-ded5-c098-2584" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f05a-82c5-7f07-e24d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="500c-3cf1-4f06-acf7" name="Samurai Leader" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">11</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">13</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">5</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">0</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">13</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d02b-a071-b2de-8c90" name="Command (Samurai)" hidden="false" targetId="8f4d-a369-8745-321e" type="rule"/>
+        <infoLink id="bb9a-7eb4-d383-7e3c" name="Group (2)" hidden="false" targetId="352d-8896-aa7f-b53d" type="rule"/>
+        <infoLink id="b53f-5d3d-16c7-b1c8" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a127-e39b-fe2b-f8af" name="New CategoryLink" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b5a2-55b1-ef92-cbdf" name="Ceremonial Blades" hidden="false" collective="false" import="true" targetId="fe9f-e1ac-4259-fdfa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cc9-3f68-1e4b-ebf9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27bc-1246-c8d1-f821" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7e0d-1b0a-7d86-89ba" name="Shogun Assault Rifle" hidden="false" collective="false" import="true" targetId="9f50-e2e0-d58c-257e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="073e-9157-8b84-8f63" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5804-a870-8422-d9a3" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e4c-ded5-c098-2584" name="Benjamin Sato" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="0a53-8ea8-d48a-3806" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4c4f-e7c5-fc24-d07b" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a53-8ea8-d48a-3806" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ed9a-d7e8-95a3-84b6" name="Benjamin Sato" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">12</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">13</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">5</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">14</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="eb69-8e3c-593b-dd07" name="Command (Samurai)" hidden="false" targetId="8f4d-a369-8745-321e" type="rule"/>
+        <infoLink id="9cd6-568b-5407-1132" name="Executioner (2)" hidden="false" targetId="3b1c-1521-170c-c82b" type="rule"/>
+        <infoLink id="ba39-8e7d-302a-f713" name="Honorbound" hidden="false" targetId="cb39-d648-1406-df02" type="rule"/>
+        <infoLink id="8250-c96b-1734-fa27" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2021-117c-9bc8-ae50" name="New CategoryLink" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
+        <categoryLink id="e918-aecf-3c75-8a60" name="Unique" hidden="false" targetId="06ea-dacd-a898-fd1b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1abd-128c-5d46-f77a" name="Sato Family Blade" hidden="false" collective="false" import="true" targetId="e581-4c60-128c-7aae" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f714-bbab-6f79-4be6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7203-ecc9-0b99-7b7f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0b53-05b4-4c0f-fef4" name="Shogun Assault Rifle" hidden="false" collective="false" import="true" targetId="9f50-e2e0-d58c-257e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc2a-1bbd-216c-ddab" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d71-d61f-c542-1a13" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="5.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-1.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="d8df-0b39-8c4d-683d" name="Ceremonial Blades" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
@@ -735,6 +949,20 @@
         <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">13</characteristic>
         <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
         <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Accurate (3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0c00-598a-33b9-d54d" name="Sato Family Blade" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">+3</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">ST+8</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">-</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">-</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">-</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">-</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">-</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Reach (1), Vicious</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

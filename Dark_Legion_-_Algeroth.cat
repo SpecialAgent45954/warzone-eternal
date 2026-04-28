@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5006-bdd5-ffcd-4aba" name="Dark Legion - Algeroth" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5006-bdd5-ffcd-4aba" name="Dark Legion - Algeroth" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="82b2-93f3-57e0-32f9" name="Undead Legionnaires Trooper" hidden="false" collective="false" import="true" targetId="8d3f-3029-2730-257c" type="selectionEntry"/>
     <entryLink id="5fa8-4989-f356-86df" name="Razides Support" hidden="false" collective="false" import="true" targetId="9750-1089-ff15-ff12" type="selectionEntry"/>
@@ -16,6 +16,10 @@
     <entryLink id="37e0-a887-b82c-e071" name="Self Repair" hidden="false" collective="false" import="true" targetId="f2fd-fc1f-9343-23cc" type="selectionEntry"/>
     <entryLink id="ff8d-76b2-2586-67fa" name="Subdermal Implants" hidden="false" collective="false" import="true" targetId="5ab2-6e7a-f9be-ceca" type="selectionEntry"/>
     <entryLink id="1692-b635-35d2-08ff" name="Immaculate Fury Support" hidden="false" collective="false" import="true" targetId="31a4-3824-cdb1-d6bc" type="selectionEntry"/>
+    <entryLink id="2236-27b1-8c6a-b9df" name="Alpha Nassal" hidden="false" collective="false" import="true" targetId="2e34-bb00-a0f7-d54c" type="selectionEntry"/>
+    <entryLink id="4346-daf9-a8e0-fa62" name="Nassal" hidden="false" collective="false" import="true" targetId="e619-8bff-fb07-b87d" type="selectionEntry"/>
+    <entryLink id="c73f-cd70-5596-9e1c" name="Centurion Special Forces" hidden="false" collective="false" import="true" targetId="afa5-d53e-b1cf-1234" type="selectionEntry"/>
+    <entryLink id="07ba-e85b-c8c8-5aa7" name="Centurions Trooper" hidden="false" collective="false" import="true" targetId="1d96-8a0a-ad29-75a1" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="dd04-6be9-efae-f135" name="Invoke Frenzy" hidden="false" collective="false" import="true" type="upgrade">
@@ -442,18 +446,21 @@
       <modifiers>
         <modifier type="decrement" field="da30-bc8b-4543-1760" value="1.0">
           <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f429-53fb-afb9-4ad4" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e34-bb00-a0f7-d54c" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e619-8bff-fb07-b87d" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
         <modifier type="decrement" field="da30-bc8b-4543-1760" value="1.0">
           <repeats>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="20ca-0b0c-961c-5d1a" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f429-53fb-afb9-4ad4" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
         <modifier type="increment" field="da30-bc8b-4543-1760" value="1.0">
           <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee61-4840-7dec-7632" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d96-8a0a-ad29-75a1" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8d3f-3029-2730-257c" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee61-4840-7dec-7632" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -636,6 +643,7 @@
         <modifier type="increment" field="89a4-b0c3-9b10-4131" value="0.25">
           <repeats>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8d3f-3029-2730-257c" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d96-8a0a-ad29-75a1" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee61-4840-7dec-7632" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
@@ -647,6 +655,8 @@
         <modifier type="decrement" field="89a4-b0c3-9b10-4131" value="0.25">
           <repeats>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="75c2-a1fe-cb63-e109" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e34-bb00-a0f7-d54c" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e619-8bff-fb07-b87d" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -765,6 +775,275 @@
       <costs>
         <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="8.0"/>
         <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e619-8bff-fb07-b87d" name="Nassal" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="8dfa-70fc-35ea-d6e4" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee61-4840-7dec-7632" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="8dfa-70fc-35ea-d6e4" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="75c2-a1fe-cb63-e109" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="8dfa-70fc-35ea-d6e4" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="20ca-0b0c-961c-5d1a" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="8dfa-70fc-35ea-d6e4" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f429-53fb-afb9-4ad4" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dfa-70fc-35ea-d6e4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c398-5ad1-45ff-5003" name="Nassal" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">14</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">16</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">7</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">22</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">3</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">16</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5393-30ed-b99a-4379" name="Fearless" hidden="false" targetId="fef3-09ba-bc39-b724" type="rule"/>
+        <infoLink id="fa20-896b-40d8-7aff" name="Command (Centurions, Necromutants)" hidden="false" targetId="053a-08d6-d08c-c20d" type="rule"/>
+        <infoLink id="6c94-fad4-5006-b700" name="Determination" hidden="false" targetId="89c6-0beb-4967-9757" type="rule"/>
+        <infoLink id="2ffe-6339-bff0-6986" name="Rebreather (5)" hidden="false" targetId="7915-d487-a073-3187" type="rule"/>
+        <infoLink id="5ec5-58ce-d376-8937" name="Training (Determination, Necromutants)" hidden="false" targetId="8cf2-dacf-dd44-e17f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cc27-a4fd-6247-d6c1" name="New CategoryLink" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f0ec-3fca-a851-baf8" name="Skalak Sword" hidden="false" collective="false" import="true" targetId="35ad-b442-981b-5f93" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d147-f73e-bcf5-d576" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a089-3536-47fa-540c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="225a-3794-2133-a442" name="Belzarach Assault Rifle" hidden="false" collective="false" import="true" targetId="2077-d9b8-306a-ad09" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba0a-d942-3e7c-99dc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="082f-5328-31fd-6de4" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="85ca-a4df-2fb6-f643" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="8329-5527-93c5-9e83" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1825-987d-53e6-148d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb3a-5496-1582-f76e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="7.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2e34-bb00-a0f7-d54c" name="Alpha Nassal" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="0e06-344d-96af-77f4" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee61-4840-7dec-7632" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d96-8a0a-ad29-75a1" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="0e06-344d-96af-77f4" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f429-53fb-afb9-4ad4" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="0e06-344d-96af-77f4" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="20ca-0b0c-961c-5d1a" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="0e06-344d-96af-77f4" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="75c2-a1fe-cb63-e109" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e06-344d-96af-77f4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="01e4-9f21-260f-6c1c" name="Alpha Nassal" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">14</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">16</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">7</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">22</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">3</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">16</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ed24-5aeb-de8b-9e26" name="Fearless" hidden="false" targetId="fef3-09ba-bc39-b724" type="rule"/>
+        <infoLink id="45d4-4a54-008a-6a83" name="Command (Centurions, Necromutants)" hidden="false" targetId="053a-08d6-d08c-c20d" type="rule"/>
+        <infoLink id="0cc3-1a94-3f59-e0bc" name="Determination" hidden="false" targetId="89c6-0beb-4967-9757" type="rule"/>
+        <infoLink id="f9af-eee3-a287-7e41" name="Rebreather (5)" hidden="false" targetId="7915-d487-a073-3187" type="rule"/>
+        <infoLink id="ee82-21c5-8fac-d56f" name="Training (Determination, Necromutants)" hidden="false" targetId="8cf2-dacf-dd44-e17f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e8fe-dee0-e1ac-c6d2" name="New CategoryLink" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9146-39ce-64f0-06c5" name="Skalak Sword" hidden="false" collective="false" import="true" targetId="35ad-b442-981b-5f93" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="428e-a583-50ab-a6d9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b57-5c83-cf05-6a67" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="60be-3874-3815-5f85" name="Groganach Assault Pistol" hidden="false" collective="false" import="true" targetId="0f82-5e5c-8ebf-fbc1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e60-8024-e1a3-bab6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f0c-71a0-d652-62ee" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="eb35-6349-2604-2eab" name="Underslung Gas Launcher" hidden="false" collective="false" import="true" targetId="b744-56c2-b38e-49a4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="263e-a6ab-fdbd-28bb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc74-4af5-326a-8d77" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="7.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0f82-5e5c-8ebf-fbc1" name="Groganach Assault Pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5b93-39ad-8e98-c09e" name="Groganach Assault Pistol" hidden="false" targetId="cdf0-1f0b-3f3a-b685" type="profile"/>
+        <infoLink id="6b96-b496-b6ab-9732" name="Burst (2)" hidden="false" targetId="9afb-f7e9-f309-f445" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b744-56c2-b38e-49a4" name="Underslung Gas Launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="50a7-4a0b-fdec-9a1d" name="Underslung Gas Launcher" hidden="false" targetId="2862-1504-f07b-2582" type="profile"/>
+        <infoLink id="0f73-a7e1-4f64-79cb" name="Cloud (2)" hidden="false" targetId="3df3-01b5-d7a9-1080" type="rule"/>
+        <infoLink id="6661-e970-1c3d-63d1" name="Continuous" hidden="false" targetId="46af-c31b-eab2-43fc" type="rule"/>
+        <infoLink id="5e1e-5ed3-4f14-8e63" name="Indirect" hidden="false" targetId="a5ba-1f3a-3d3f-da7e" type="rule"/>
+        <infoLink id="9ec6-1e60-f711-be34" name="Smoke" hidden="false" targetId="4035-9da3-06a3-afbf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1d96-8a0a-ad29-75a1" name="Centurions Trooper" hidden="true" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="df48-89c4-6dbc-1edb" value="2.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e34-bb00-a0f7-d54c" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="afa5-d53e-b1cf-1234" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df48-89c4-6dbc-1edb" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1028-af50-8d0d-d5de" name="Centurions Leader" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">15</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">7</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">22</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">3</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">12</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">15</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fcd3-249a-a3a0-2185" name="Fierce Charge" hidden="false" targetId="ec33-299c-dda9-7a79" type="rule"/>
+        <infoLink id="a3ff-9758-ac67-a057" name="Command (Necromutants, Undead Legionnaires)" hidden="false" targetId="e6cb-644d-b0fa-248b" type="rule"/>
+        <infoLink id="1eb5-8031-b5bd-5f48" name="Controller (9)" hidden="false" targetId="0a7c-e1c5-0f85-ec9d" type="rule"/>
+        <infoLink id="77b6-1e4f-7bfd-03e1" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c3ad-b739-4729-dcdf" name="New CategoryLink" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7d4e-ae79-33ba-318e" name="Skalak Sword" hidden="false" collective="false" import="true" targetId="35ad-b442-981b-5f93" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4510-70e0-dd2b-2392" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbdf-c0f8-f9bc-779a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f16c-9eb5-f7f2-2e10" name="Smoke Grenades" hidden="false" collective="false" import="true" targetId="a21f-e75a-b897-afc0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6405-fb80-16dc-303c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f00-6697-0815-0eb6" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fead-312d-07e5-42e1" name="Voriche Handgun" hidden="false" collective="false" import="true" targetId="68f1-39b0-046d-511b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d9f-e2f9-5b5b-a736" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb4e-60f4-1a1a-8499" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="6.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="afa5-d53e-b1cf-1234" name="Centurion Special Forces" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="d378-bf1e-3c49-5fc4" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e34-bb00-a0f7-d54c" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d378-bf1e-3c49-5fc4" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="deb8-bd48-a6ef-ca20" name="Centurion Special Forces" hidden="false">
+          <description>For each Unit with the Alpha Nassal Unit Type in a Force, up to two Units with the Centurion Unit Type in that Force may replace their Leader Unit Designation with the Trooper Unit Designation.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1e1f-a6a4-20d6-07ab" name="Algeroth Assets" hidden="false" targetId="14c0-47cd-190d-22ea" primary="true"/>
+        <categoryLink id="dc74-3114-baa1-b34e" name="Faction Assets" hidden="false" targetId="9680-a729-1b99-6ac1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="1.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1019,6 +1298,34 @@
         <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">5</characteristic>
         <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">19</characteristic>
         <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Gruesome (3), Terrifying, Vicious</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cdf0-1f0b-3f3a-b685" name="Groganach Assault Pistol" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-2</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">13</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 12&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+1</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">13</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">12&quot;-18&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">+0</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">12</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">19</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Burst (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2862-1504-f07b-2582" name="Underslung Gas Launcher" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">Up to 12&quot;</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">+0</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">9</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">12&quot;-36&quot;</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-2</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">9</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">18</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Cloud (2), Continuous, Indirect, Smoke</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
