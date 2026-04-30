@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eaeb-df27-aa69-e0b2" name="Mishima" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eaeb-df27-aa69-e0b2" name="Mishima" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="2788-cba8-7128-6e26" name="Daimyo" hidden="false" collective="false" import="true" targetId="bc59-5991-6524-5457" type="selectionEntry"/>
     <entryLink id="3982-1c9a-b6ac-59c6" name="Hatamoto Leader" hidden="false" collective="false" import="true" targetId="0f76-4e7a-0b5d-a0e6" type="selectionEntry"/>
@@ -781,7 +781,7 @@
         <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3e4c-ded5-c098-2584" name="Benjamin Sato" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="3e4c-ded5-c098-2584" name="Benjamin Sato Leader" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="0a53-8ea8-d48a-3806" value="1.0">
           <conditions>

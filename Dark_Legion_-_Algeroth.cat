@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5006-bdd5-ffcd-4aba" name="Dark Legion - Algeroth" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5006-bdd5-ffcd-4aba" name="Dark Legion - Algeroth" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="82b2-93f3-57e0-32f9" name="Undead Legionnaires Trooper" hidden="false" collective="false" import="true" targetId="8d3f-3029-2730-257c" type="selectionEntry"/>
     <entryLink id="5fa8-4989-f356-86df" name="Razides Support" hidden="false" collective="false" import="true" targetId="9750-1089-ff15-ff12" type="selectionEntry"/>
@@ -777,7 +777,7 @@
         <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e619-8bff-fb07-b87d" name="Nassal" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="e619-8bff-fb07-b87d" name="Nassal Leader" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="8dfa-70fc-35ea-d6e4" value="1.0">
           <repeats>
@@ -854,7 +854,7 @@
         <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2e34-bb00-a0f7-d54c" name="Alpha Nassal" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="2e34-bb00-a0f7-d54c" name="Alpha Nassal Leader" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="increment" field="0e06-344d-96af-77f4" value="1.0">
           <repeats>
@@ -902,7 +902,7 @@
         <infoLink id="45d4-4a54-008a-6a83" name="Command (Centurions, Necromutants)" hidden="false" targetId="053a-08d6-d08c-c20d" type="rule"/>
         <infoLink id="0cc3-1a94-3f59-e0bc" name="Determination" hidden="false" targetId="89c6-0beb-4967-9757" type="rule"/>
         <infoLink id="f9af-eee3-a287-7e41" name="Rebreather (5)" hidden="false" targetId="7915-d487-a073-3187" type="rule"/>
-        <infoLink id="ee82-21c5-8fac-d56f" name="Training (Determination, Necromutants)" hidden="false" targetId="8cf2-dacf-dd44-e17f" type="rule"/>
+        <infoLink id="ee82-21c5-8fac-d56f" name="Training (Fearless, Necromutants)" hidden="false" targetId="aee7-de5c-fd3b-0535" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e8fe-dee0-e1ac-c6d2" name="New CategoryLink" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
@@ -1018,7 +1018,7 @@
       </entryLinks>
       <costs>
         <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="6.0"/>
-        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="afa5-d53e-b1cf-1234" name="Centurion Special Forces" hidden="false" collective="false" import="true" type="upgrade">
