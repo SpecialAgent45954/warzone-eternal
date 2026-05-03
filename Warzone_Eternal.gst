@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="6" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="7" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Copyright Res Nova LLC, Heroic Signatures, 2024</readme>
   <costTypes>
     <costType id="e87f-c529-f945-edc6" name=" Deployment Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -1272,8 +1272,8 @@ Note: this means every Cloud (6) or higher Weapon Special Ability will be reduce
     <rule id="8f4d-a369-8745-321e" name="Command (Samurai)" hidden="false">
       <description>Once per Turn, if this Unit is neither Engaged nor has a Pinned Counter, it may spend an Action to perform a TN (LD) Test. On a Success, a Friendly Unit of Unit Type Samurai within 12” and non-Blocked LOS may perform one Action when this Unit completes its Activation.</description>
     </rule>
-    <rule id="aee7-de5c-fd3b-0535" name="Training (Fearless, Necromutants)" hidden="false">
-      <description>This Unit adds the Fearless Special Ability to all other Friendly Units of Necromutants Unit Type.</description>
+    <rule id="aee7-de5c-fd3b-0535" name="Training (Fearless, Centurions)" hidden="false">
+      <description>This Unit adds the Fearless Special Ability to all other Friendly Units of Centurions Unit Type.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
