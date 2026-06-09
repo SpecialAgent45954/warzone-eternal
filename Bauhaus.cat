@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4668-e411-f37b-a531" name="Bauhaus" revision="4" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4668-e411-f37b-a531" name="Bauhaus" revision="5" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Copyright Res Nova LLC, Heroic Signatures, 2024</readme>
   <entryLinks>
     <entryLink id="0768-35b1-302d-7ac3" name="Venusian Ranger Trooper" hidden="false" collective="false" import="true" targetId="693c-c756-d911-84db" type="selectionEntry"/>
@@ -27,6 +27,7 @@
     <entryLink id="afdc-2a22-bab8-1e19" name="Mortificators Trooper" hidden="false" collective="false" import="true" targetId="0484-1d7f-a752-fea3" type="selectionEntry"/>
     <entryLink id="f6dd-09ab-74fd-a9a5" name="Undead Legionnaires Trooper" hidden="false" collective="false" import="true" targetId="c26d-d114-0481-8797" type="selectionEntry"/>
     <entryLink id="aba6-9f1a-6f9b-9882" name="Necromutants Trooper" hidden="false" collective="false" import="true" targetId="b528-48b1-8692-9cbd" type="selectionEntry"/>
+    <entryLink id="2015-adfe-a1f2-6407" name="Friedrich Wachtmeister" hidden="false" collective="false" import="true" targetId="4404-7375-19f8-4e36" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="693c-c756-d911-84db" name="Venusian Rangers Trooper" hidden="false" collective="false" import="true" type="model">
@@ -334,6 +335,11 @@
         <modifier type="increment" field="2ffa-260f-f281-bef0" value="1.0">
           <repeats>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb82-6109-9a3d-6af9" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="2ffa-260f-f281-bef0" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4404-7375-19f8-4e36" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -691,6 +697,80 @@
         <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4404-7375-19f8-4e36" name="Friedrich Wachtmeister" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="ce17-5314-1cb1-26a2" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb82-6109-9a3d-6af9" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce17-5314-1cb1-26a2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e809-afc3-7f2b-025b" name="Friedrich Wachtmeister" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">4</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">14</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">14</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">7</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">11</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">14</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3ab5-3860-6a41-037f" name="Blitz" hidden="false" targetId="8ca5-ae28-a531-c385" type="rule"/>
+        <infoLink id="a8ac-51cc-f729-b8b0" name="Trailblaze" hidden="false" targetId="e3e2-a693-37a4-3eb7" type="rule"/>
+        <infoLink id="f7a9-f82a-7c0d-6ad2" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+        <infoLink id="a2be-648e-b009-2d8a" name="Command (Blitzers)" hidden="false" targetId="9ef5-badd-6260-18c1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4b0e-0fa1-c89f-8b01" name="Leader" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
+        <categoryLink id="fd13-c28e-0352-e328" name="Unique" hidden="false" targetId="06ea-dacd-a898-fd1b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ed19-87d1-0ce6-7e4c" name="MP-105 Handgun" hidden="false" collective="false" import="true" targetId="40d7-3af0-dde8-5833" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76f7-be84-bb4c-a66f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="656b-ceef-34d5-4d44" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0bea-bc01-8f4c-cb4b" name="HG-14 Shotgun" hidden="false" collective="false" import="true" targetId="d980-a576-21db-3a64" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53ce-643e-4eb5-a230" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59e6-a3e5-9ffc-259a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6aae-b7eb-818c-6581" name="HI-EX Grenades" hidden="false" collective="false" import="true" targetId="5da7-52aa-9683-015b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6ce-9de8-dc3d-f61d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c957-2985-706f-90ee" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="5.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5da7-52aa-9683-015b" name="HI-EX Grenades" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0f22-7cc4-f8c1-27d8" name="HI-EX Grenades" hidden="false" targetId="e0ec-e739-f82e-acf6" type="profile"/>
+        <infoLink id="c5ea-6968-dc47-8e3c" name="Anti-Tank" hidden="false" targetId="c72a-ba6f-f1e0-8c9a" type="rule"/>
+        <infoLink id="917a-d243-23ee-490f" name="Explosive (1)" hidden="false" targetId="982a-88e3-30cc-407e" type="rule"/>
+        <infoLink id="9f36-2497-fb39-e6b7" name="Indirect" hidden="false" targetId="a5ba-1f3a-3d3f-da7e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="f4c8-4ae6-b6ff-2917" name="AG-17 Assault Rifle" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
@@ -775,6 +855,20 @@
         <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">13</characteristic>
         <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
         <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Accurate (3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e0ec-e739-f82e-acf6" name="HI-EX Grenades" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">-</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">-</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">-</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">-</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">ST+4&quot; </characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-2</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">14</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">19</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Anti-Tank, Explosive (1), Indirect</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

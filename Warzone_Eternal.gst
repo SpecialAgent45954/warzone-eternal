@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="7" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="8" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Copyright Res Nova LLC, Heroic Signatures, 2024</readme>
   <costTypes>
     <costType id="e87f-c529-f945-edc6" name=" Deployment Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -1274,6 +1274,15 @@ Note: this means every Cloud (6) or higher Weapon Special Ability will be reduce
     </rule>
     <rule id="aee7-de5c-fd3b-0535" name="Training (Fearless, Centurions)" hidden="false">
       <description>This Unit adds the Fearless Special Ability to all other Friendly Units of Centurions Unit Type.</description>
+    </rule>
+    <rule id="c72a-ba6f-f1e0-8c9a" name="Anti-Tank" hidden="false">
+      <description>Shoot and Strike Action Tests performed with this weapon ignore the Cover Terrain Trait and the First Aid (X) and Fortitude Unit Special Abilities are ignored when assigning Wound Counters resulting from a failed Armor Test. This Ability applies to only the Primary Target for Area of Effect weapons.</description>
+    </rule>
+    <rule id="690c-ef3f-9206-ec34" name="Unstoppable" hidden="false">
+      <description>This Unit cannot be targeted by an Ambush Reaction during a Charge Action.</description>
+    </rule>
+    <rule id="ab24-be88-4424-5ad7" name="Training (Fierce Charge, Undead Legionnaires)" hidden="false">
+      <description>This Unit adds the Fierce Charge Special Ability to all other Friendly Units of Undead Legionnaires Unit Type.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5006-bdd5-ffcd-4aba" name="Dark Legion - Algeroth" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5006-bdd5-ffcd-4aba" name="Dark Legion - Algeroth" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="82b2-93f3-57e0-32f9" name="Undead Legionnaires Trooper" hidden="false" collective="false" import="true" targetId="8d3f-3029-2730-257c" type="selectionEntry"/>
     <entryLink id="5fa8-4989-f356-86df" name="Razides Support" hidden="false" collective="false" import="true" targetId="9750-1089-ff15-ff12" type="selectionEntry"/>
@@ -20,6 +20,7 @@
     <entryLink id="4346-daf9-a8e0-fa62" name="Nassal" hidden="false" collective="false" import="true" targetId="e619-8bff-fb07-b87d" type="selectionEntry"/>
     <entryLink id="c73f-cd70-5596-9e1c" name="Centurion Special Forces" hidden="false" collective="false" import="true" targetId="afa5-d53e-b1cf-1234" type="selectionEntry"/>
     <entryLink id="07ba-e85b-c8c8-5aa7" name="Centurions Trooper" hidden="false" collective="false" import="true" targetId="1d96-8a0a-ad29-75a1" type="selectionEntry"/>
+    <entryLink id="abb8-c06e-8e7a-4d3b" name="Centurion Morgas" hidden="false" collective="false" import="true" targetId="91db-ae3c-d983-1c55" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="dd04-6be9-efae-f135" name="Invoke Frenzy" hidden="false" collective="false" import="true" type="upgrade">
@@ -346,6 +347,11 @@
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8d3f-3029-2730-257c" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
+        <modifier type="decrement" field="7aa3-b3bf-8638-27d6" value="0.75">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91db-ae3c-d983-1c55" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aa3-b3bf-8638-27d6" type="max"/>
@@ -462,6 +468,11 @@
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8d3f-3029-2730-257c" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee61-4840-7dec-7632" repeats="1" roundUp="false"/>
           </repeats>
+        </modifier>
+        <modifier type="decrement" field="da30-bc8b-4543-1760" value="3.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91db-ae3c-d983-1c55" type="greaterThan"/>
+          </conditions>
         </modifier>
       </modifiers>
       <constraints>
@@ -657,6 +668,11 @@
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="75c2-a1fe-cb63-e109" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e34-bb00-a0f7-d54c" repeats="1" roundUp="false"/>
             <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e619-8bff-fb07-b87d" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="89a4-b0c3-9b10-4131" value="0.75">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91db-ae3c-d983-1c55" repeats="1" roundUp="false"/>
           </repeats>
         </modifier>
       </modifiers>
@@ -1044,6 +1060,69 @@
       <costs>
         <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="1.0"/>
         <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="91db-ae3c-d983-1c55" name="Centurion Morgas" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="082e-f57c-6525-df78" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8d3f-3029-2730-257c" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="082e-f57c-6525-df78" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0eca-d9e3-bb58-13dc" name="Centurion Morgas" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">15</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">7</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">22</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">3</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">13</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">15</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ed3d-2bc0-287c-1af3" name="Fierce Charge" hidden="false" targetId="ec33-299c-dda9-7a79" type="rule"/>
+        <infoLink id="b3d9-fba5-7f6c-bd43" name="Command (Necromutants, Undead Legionnaires)" hidden="false" targetId="e6cb-644d-b0fa-248b" type="rule"/>
+        <infoLink id="6f00-07fd-0f88-3442" name="Controller (12)" hidden="false" targetId="8374-cbaa-30af-f0ba" type="rule"/>
+        <infoLink id="1d9b-4074-c2b3-502d" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+        <infoLink id="bb79-ecaa-c5dc-4725" name="Training (Fierce Charge, Undead Legionnaires)" hidden="false" targetId="ab24-be88-4424-5ad7" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c7dc-b48c-43fe-10a8" name="New CategoryLink" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
+        <categoryLink id="2165-08a1-02d3-84e2" name="Unique" hidden="false" targetId="06ea-dacd-a898-fd1b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9678-90a1-7e44-6716" name="Skalak Sword" hidden="false" collective="false" import="true" targetId="35ad-b442-981b-5f93" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e567-37a9-bea0-e2aa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2947-20ab-bc27-e287" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="98b1-b94f-94ce-27c3" name="Gas Grenades" hidden="false" collective="false" import="true" targetId="f5f9-5e44-8a03-eaa4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4c2-0338-08f6-7278" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ac7-0cae-6c32-5026" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="55c7-6621-9cbb-a110" name="Voriche Handgun" hidden="false" collective="false" import="true" targetId="68f1-39b0-046d-511b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eecf-b22b-0b96-3bb3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f70-cc93-58af-bc1c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="7.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-3.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

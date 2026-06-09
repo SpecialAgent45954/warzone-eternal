@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eb2f-03a2-2b44-42a6" name="Imperial" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eb2f-03a2-2b44-42a6" name="Imperial" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="961f-5ee0-32eb-5b85" name="Blood Berets Leader" hidden="false" collective="false" import="true" targetId="4e1d-8a09-0ea6-423b" type="selectionEntry"/>
     <entryLink id="d443-73d4-15fe-86c6" name="Blood Berets Medic Specialist" hidden="false" collective="false" import="true" targetId="94e9-148a-4d3e-f034" type="selectionEntry"/>
@@ -26,6 +26,7 @@
     <entryLink id="7920-a30a-80ac-7f35" name="Mortificators Trooper" hidden="false" collective="false" import="true" targetId="0484-1d7f-a752-fea3" type="selectionEntry"/>
     <entryLink id="a006-e3b4-2fb3-fa21" name="Necromutants Trooper" hidden="false" collective="false" import="true" targetId="b528-48b1-8692-9cbd" type="selectionEntry"/>
     <entryLink id="644d-f234-50ab-bd2d" name="Undead Legionnaires Trooper" hidden="false" collective="false" import="true" targetId="c26d-d114-0481-8797" type="selectionEntry"/>
+    <entryLink id="6eca-810b-c6d4-d52b" name="Wolfbane Commando Trooper" hidden="false" collective="false" import="true" targetId="5cef-6025-cb3c-4fcb" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="b2d3-dda5-66d4-48b5" name="Clan Rivalry" hidden="false" collective="false" import="true" type="upgrade">
@@ -772,6 +773,49 @@
       <costs>
         <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="3.0"/>
         <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5cef-6025-cb3c-4fcb" name="Wolfbane Commando Trooper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ce8f-7034-558b-d88c" name="Wolfbane Commando Trooper" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">12</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">14</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">12</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="84fb-7517-f3db-36ca" name="Fierce Charge" hidden="false" targetId="ec33-299c-dda9-7a79" type="rule"/>
+        <infoLink id="f560-1b8c-4b8d-3c53" name="Unstoppable" hidden="false" targetId="690c-ef3f-9206-ec34" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9648-9161-b350-390e" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b988-dc6f-32bf-d216" name="Aggressor Handgun" hidden="false" collective="false" import="true" targetId="c1fa-bd3b-c74e-41aa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ffb-c331-17af-32f7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e6d-6f56-776a-7efa" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bc5b-c8d1-49b5-277b" name="Punisher Shortsword" hidden="false" collective="false" import="true" targetId="7f4c-4208-55ef-2fbc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ea9-059d-318b-360c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9cd-dca4-8071-71f2" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
