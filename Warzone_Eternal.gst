@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="8" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="9" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Copyright Res Nova LLC, Heroic Signatures, 2024</readme>
   <costTypes>
     <costType id="e87f-c529-f945-edc6" name=" Deployment Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -1283,6 +1283,15 @@ Note: this means every Cloud (6) or higher Weapon Special Ability will be reduce
     </rule>
     <rule id="ab24-be88-4424-5ad7" name="Training (Fierce Charge, Undead Legionnaires)" hidden="false">
       <description>This Unit adds the Fierce Charge Special Ability to all other Friendly Units of Undead Legionnaires Unit Type.</description>
+    </rule>
+    <rule id="47e7-c6ff-b694-1bfe" name="Executioner (5)" hidden="false">
+      <description>This Unit’s Strike Actions score Critical Successes on a natural roll of 5 or lower, instead of only on a natural roll of “1.”</description>
+    </rule>
+    <rule id="018f-b9ec-d2ea-2817" name="Multi-strike (2)" hidden="false">
+      <description>For each Strike Action with this Weapon, a Strike Action Test may be assigned to up to 2 Enemy Units.</description>
+    </rule>
+    <rule id="6386-4860-f78b-9cb0" name="Command (Commandos)" hidden="false">
+      <description>Once per Turn, if this Unit is neither Engaged nor has a Pinned Counter, it may spend an Action to perform a TN (LD) Test. On a Success, a Friendly Unit of Unit Type Commandos within 12” and non-Blocked LOS may perform one Action when this Unit completes its Activation.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

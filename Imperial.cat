@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eb2f-03a2-2b44-42a6" name="Imperial" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eb2f-03a2-2b44-42a6" name="Imperial" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="961f-5ee0-32eb-5b85" name="Blood Berets Leader" hidden="false" collective="false" import="true" targetId="4e1d-8a09-0ea6-423b" type="selectionEntry"/>
     <entryLink id="d443-73d4-15fe-86c6" name="Blood Berets Medic Specialist" hidden="false" collective="false" import="true" targetId="94e9-148a-4d3e-f034" type="selectionEntry"/>
@@ -27,6 +27,9 @@
     <entryLink id="a006-e3b4-2fb3-fa21" name="Necromutants Trooper" hidden="false" collective="false" import="true" targetId="b528-48b1-8692-9cbd" type="selectionEntry"/>
     <entryLink id="644d-f234-50ab-bd2d" name="Undead Legionnaires Trooper" hidden="false" collective="false" import="true" targetId="c26d-d114-0481-8797" type="selectionEntry"/>
     <entryLink id="6eca-810b-c6d4-d52b" name="Wolfbane Commando Trooper" hidden="false" collective="false" import="true" targetId="5cef-6025-cb3c-4fcb" type="selectionEntry"/>
+    <entryLink id="50a7-1937-45e4-b300" name="Wolfbane Commando HMG Support" hidden="false" collective="false" import="true" targetId="4a38-051d-f796-427c" type="selectionEntry"/>
+    <entryLink id="4d46-485c-0dfb-dc24" name="Wolfbane Commando Chieftain Leader" hidden="false" collective="false" import="true" targetId="eb9c-01b1-46df-2f6b" type="selectionEntry"/>
+    <entryLink id="5758-bb57-cea0-cc30" name="Wolfbane Headhunter Trooper" hidden="false" collective="false" import="true" targetId="b3bf-e237-ed8b-0ef5" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="b2d3-dda5-66d4-48b5" name="Clan Rivalry" hidden="false" collective="false" import="true" type="upgrade">
@@ -818,6 +821,170 @@
         <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4a38-051d-f796-427c" name="Wolfbane Commando HMG Support" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="620f-3ddf-8dad-0368" name="Wolfbane Commando HMG Support" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">12</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">14</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">12</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2c08-2806-b3f4-cd71" name="Fierce Charge" hidden="false" targetId="ec33-299c-dda9-7a79" type="rule"/>
+        <infoLink id="2429-d0a0-00de-a177" name="Unstoppable" hidden="false" targetId="690c-ef3f-9206-ec34" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d5a8-efd2-288c-f9d3" name="Support" hidden="false" targetId="72e5-3998-27b5-2257" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6f14-c51b-2009-ea84" name="Aggressor Handgun" hidden="false" collective="false" import="true" targetId="c1fa-bd3b-c74e-41aa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2f2-b88b-3bfe-19bf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73d8-0f23-cf6c-6296" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9588-9ce5-53d5-737d" name="Charger HMG" hidden="false" collective="false" import="true" targetId="640f-283c-bb7f-8b96" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c5b-bfd8-81f9-72e0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffe3-f869-58e9-1291" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="4.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eb9c-01b1-46df-2f6b" name="Wolfbane Commando Chieftain Leader" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="increment" field="7fe6-c418-cc43-2805" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cef-6025-cb3c-4fcb" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fe6-c418-cc43-2805" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8565-41b4-7ce4-a0d7" name="Wolfbane Commando Chieftain Leader" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">13</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">16</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-2</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">22</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">3</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">12</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">14</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b4f1-41c8-b050-9b08" name="Fierce Charge" hidden="false" targetId="ec33-299c-dda9-7a79" type="rule"/>
+        <infoLink id="0761-f53b-751a-0b93" name="Unstoppable" hidden="false" targetId="690c-ef3f-9206-ec34" type="rule"/>
+        <infoLink id="bb8d-38a9-6ca6-9c04" name="Command (Commandos)" hidden="false" targetId="6386-4860-f78b-9cb0" type="rule"/>
+        <infoLink id="49b3-d08d-e927-9049" name="Inspire" hidden="false" targetId="adfb-10cf-3cc0-efc8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c4aa-e305-886a-a1a8" name="New CategoryLink" hidden="false" targetId="2434-928d-ddd5-af2c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4a57-9063-d07f-e3b4" name="Aggressor Handgun" hidden="false" collective="false" import="true" targetId="c1fa-bd3b-c74e-41aa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b95-0030-6e83-c751" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2552-9949-1b19-5b88" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4387-ea1f-3d1e-2ca9" name="Claymore" hidden="false" collective="false" import="true" targetId="88a9-2766-8cfc-d261" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="893f-b8c6-3926-00f8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6ea-b104-f840-199f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="6.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="-3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="88a9-2766-8cfc-d261" name="Claymore" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6e3d-299f-cee9-ae73" name="Claymore" hidden="false" targetId="7a98-45d9-bbaa-2715" type="profile"/>
+        <infoLink id="9be1-3179-3e1d-9d1e" name="Reach (2)" hidden="false" targetId="df2a-c665-963d-53e1" type="rule"/>
+        <infoLink id="b759-059f-7992-89a0" name="Thrust (2)" hidden="false" targetId="d83a-60aa-3fca-a88d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b3bf-e237-ed8b-0ef5" name="Wolfbane Headhunter Trooper" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="a5fc-155e-0f2e-e064" name="Wolfbane Commando Trooper" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+          <characteristics>
+            <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">12</characteristic>
+            <characteristic name="CC" typeId="a7b8-a032-dc38-6288">14</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
+            <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
+            <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
+            <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">12</characteristic>
+            <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6bf8-3b2a-bb4f-431a" name="Fierce Charge" hidden="false" targetId="ec33-299c-dda9-7a79" type="rule"/>
+        <infoLink id="ee2d-499d-9ff3-43cb" name="Unstoppable" hidden="false" targetId="690c-ef3f-9206-ec34" type="rule"/>
+        <infoLink id="77d3-1978-f9c8-1135" name="Executioner (5)" hidden="false" targetId="47e7-c6ff-b694-1bfe" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7589-d40f-57d9-b318" name="Trooper" hidden="false" targetId="725b-d635-3d7a-e6ae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2853-4c17-3af5-229c" name="Aggressor Handgun" hidden="false" collective="false" import="true" targetId="c1fa-bd3b-c74e-41aa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4af7-6880-9207-5a1c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb24-b343-8ec2-fb85" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f6b6-d263-2172-34b2" name="Battleaxe" hidden="false" collective="false" import="true" targetId="63cc-f6a5-79f0-cae4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02f7-c6ed-0144-8a4e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4de9-c598-4100-8704" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="5.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="63cc-f6a5-79f0-cae4" name="Battleaxe" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e1f0-9562-99b4-87b0" name="Battleaxe" hidden="false" targetId="88de-b7cd-dff5-b0d6" type="profile"/>
+        <infoLink id="6477-1352-13c5-462a" name="Multi-strike (2)" hidden="false" targetId="018f-b9ec-d2ea-2817" type="rule"/>
+        <infoLink id="3d9b-9ebf-0bd7-d592" name="Reach (2)" hidden="false" targetId="df2a-c665-963d-53e1" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Deployment Points" typeId="e87f-c529-f945-edc6" value="0.0"/>
+        <cost name=" Support Points" typeId="717d-dea5-cbca-8810" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="f5c3-0a80-56a7-849f" name="Blade/Bayonet" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
@@ -972,6 +1139,34 @@
         <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">12</characteristic>
         <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">19</characteristic>
         <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Explosive (1), Continuous, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7a98-45d9-bbaa-2715" name="Claymore" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-1</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">ST+9</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">-</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">-</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">-</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">-</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">-</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Reach (2), Thrust (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="88de-b7cd-dff5-b0d6" name="Battleaxe" hidden="false" typeId="032c-ece5-f330-d31d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CC Mod" typeId="7bee-9c2c-b1be-9459">-1</characteristic>
+        <characteristic name="CC DAM" typeId="8432-79b5-d720-59d6">ST+9</characteristic>
+        <characteristic name="Short Range" typeId="0b60-94fc-a875-726e">-</characteristic>
+        <characteristic name="Short Mod" typeId="7eb1-899b-531d-0e9b">-</characteristic>
+        <characteristic name="Short DAM" typeId="ab91-6983-89b2-69f9">-</characteristic>
+        <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">-</characteristic>
+        <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-</characteristic>
+        <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">-</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">-</characteristic>
+        <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Multi-Strike (2), Reach (2)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
