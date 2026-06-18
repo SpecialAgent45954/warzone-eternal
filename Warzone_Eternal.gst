@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="9" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="10" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Copyright Res Nova LLC, Heroic Signatures, 2024</readme>
   <costTypes>
     <costType id="e87f-c529-f945-edc6" name=" Deployment Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -1292,6 +1292,9 @@ Note: this means every Cloud (6) or higher Weapon Special Ability will be reduce
     </rule>
     <rule id="6386-4860-f78b-9cb0" name="Command (Commandos)" hidden="false">
       <description>Once per Turn, if this Unit is neither Engaged nor has a Pinned Counter, it may spend an Action to perform a TN (LD) Test. On a Success, a Friendly Unit of Unit Type Commandos within 12” and non-Blocked LOS may perform one Action when this Unit completes its Activation.</description>
+    </rule>
+    <rule id="8f23-3581-24d3-547d" name="Command (Hussars)" hidden="false">
+      <description>Once per Turn, if this Unit is neither Engaged nor has a Pinned Counter, it may spend an Action to perform a TN (LD) Test. On a Success, a Friendly Unit of Unit Type Hussars within 12” and non-Blocked LOS may perform one Action when this Unit completes its Activation.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
