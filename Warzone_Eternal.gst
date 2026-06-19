@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="10" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2955-bd47-a5d6-6949" name="Warzone Eternal" revision="11" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Copyright Res Nova LLC, Heroic Signatures, 2024</readme>
   <costTypes>
     <costType id="e87f-c529-f945-edc6" name=" Deployment Points" defaultCostLimit="-1.0" hidden="false"/>
