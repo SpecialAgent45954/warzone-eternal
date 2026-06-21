@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4668-e411-f37b-a531" name="Bauhaus" revision="7" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4668-e411-f37b-a531" name="Bauhaus" revision="8" battleScribeVersion="2.03" authorName="Davide Desana (Mutant Chronicles Italian Club)" authorContact="info@mcic.it" authorUrl="www.mcic.it" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Copyright Res Nova LLC, Heroic Signatures, 2024</readme>
   <entryLinks>
     <entryLink id="0768-35b1-302d-7ac3" name="Venusian Ranger Trooper" hidden="false" collective="false" import="true" targetId="693c-c756-d911-84db" type="selectionEntry"/>
@@ -969,7 +969,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e424-212d-a92a-ed06" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="a77c-77be-2b73-5e1a" name="AG-17 Assault Rifle" hidden="false" collective="false" import="true" targetId="95b1-4fcf-3412-e906" type="selectionEntry">
+        <entryLink id="a77c-77be-2b73-5e1a" name="HG-14 Shotgun" hidden="false" collective="false" import="true" targetId="d980-a576-21db-3a64" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="050d-0338-8442-af07" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5d6-d26b-4c81-c641" type="max"/>

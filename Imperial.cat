@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eb2f-03a2-2b44-42a6" name="Imperial" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eb2f-03a2-2b44-42a6" name="Imperial" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="2955-bd47-a5d6-6949" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="961f-5ee0-32eb-5b85" name="Blood Berets Leader" hidden="false" collective="false" import="true" targetId="4e1d-8a09-0ea6-423b" type="selectionEntry"/>
     <entryLink id="d443-73d4-15fe-86c6" name="Blood Berets Medic Specialist" hidden="false" collective="false" import="true" targetId="94e9-148a-4d3e-f034" type="selectionEntry"/>
@@ -932,17 +932,17 @@
     </selectionEntry>
     <selectionEntry id="b3bf-e237-ed8b-0ef5" name="Wolfbane Headhunter Trooper" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="a5fc-155e-0f2e-e064" name="Wolfbane Commando Trooper" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
+        <profile id="a5fc-155e-0f2e-e064" name="Wolfbane Headhunter Trooper" hidden="false" typeId="1a03-09ad-bee6-f0f2" typeName="Infantry">
           <characteristics>
             <characteristic name="MV" typeId="212a-67c7-c7cf-f82f">5</characteristic>
-            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">12</characteristic>
+            <characteristic name="MW" typeId="6d02-5d8a-a222-75c9">11</characteristic>
             <characteristic name="CC" typeId="a7b8-a032-dc38-6288">14</characteristic>
-            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">6</characteristic>
+            <characteristic name="ST" typeId="8a61-1af6-ca5c-c54e">7</characteristic>
             <characteristic name="DEF" typeId="798d-ee8e-fee2-1c35">-1</characteristic>
             <characteristic name="AR" typeId="0367-47fc-0740-8c36">21</characteristic>
             <characteristic name="W" typeId="73a2-1b0c-531f-0f83">2</characteristic>
             <characteristic name="PW" typeId="219f-f922-bd64-d979">10</characteristic>
-            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">12</characteristic>
+            <characteristic name="LD" typeId="eb51-e95f-4471-62ab">13</characteristic>
             <characteristic name="Base" typeId="5a6c-8675-00d7-e4b5">30mm</characteristic>
           </characteristics>
         </profile>
@@ -1165,7 +1165,7 @@
         <characteristic name="Long Range" typeId="08f5-bd74-d8fc-aa35">-</characteristic>
         <characteristic name="Long Mod" typeId="dae2-f216-39e2-0627">-</characteristic>
         <characteristic name="Long DAM" typeId="fbe2-39ba-81b8-fdec">-</characteristic>
-        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">-</characteristic>
+        <characteristic name="Crit Fail" typeId="7d4e-11e3-ad2b-8903">20</characteristic>
         <characteristic name="Special Abilities" typeId="b958-d1fb-67ff-ec9a">Multi-Strike (2), Reach (2)</characteristic>
       </characteristics>
     </profile>
